@@ -34,7 +34,7 @@ def __get_tag_weight__(row):
 # Normalize tag weight (1-2) based on below formula
 # Formula ((val - A)*(b-a))/(B-A) + a
 # [A, B] --> [a, b]
-# A = 1, B = latest_timestamp delta in seconds, a = 0, b = 1
+# A = 1, B = latest_timestamp delta in seconds, a = 1, b = 2
 def __normalize_tag_weight__(row):
     global latest_timestamp
     return ((row['weight'] - 0) * (__b - __a)) / (latest_timestamp - 0) + __a

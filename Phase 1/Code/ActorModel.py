@@ -62,9 +62,9 @@ def __get_tf_info__(actor_id):
 
 
 # Computes TF IDF values
-# count of movies in DB / count of tags (based of tag timestamp) of movies in DB
+# count of actors in DB / count of actors associated with given tag in DB
 def __get_tfidf_info__(actor_id):
-    total_movies_count = len(Data.ml_movies)
+    total_actors_count = len(Data.actor_info['actorid'].unique())
     movies = __get_movies_by_actor__(actor_id)
     tag_list = {}
     all_tag_list = []
@@ -73,16 +73,17 @@ def __get_tfidf_info__(actor_id):
         tf_value = __compute_tf_tag_weight__(actor_id, row['movieid'])
         for tag, weight in tf_value.iteritems():
             tag_id = __tagTable[__tagTable['tag'] == tag].iloc[0].tagid
-            total_tag_count_in_all_movies = len(Data.ml_tags[Data.ml_tags['tagid'] == tag_id].groupby('movieid').apply(list))
-            idf_value = math.log(total_movies_count/total_tag_count_in_all_movies, 2) * weight
-            if tag in tag_list:
-                tag_list[tag] += idf_value
-            else:
-                tag_list[tag] = idf_value
+            total_actors_with_given_tag = len(__actorTagTable[__actorTagTable['tagid'] == tag_id].groupby('actorid'))
+            if total_actors_with_given_tag > 0:
+                idf_value = math.log(total_actors_count/total_actors_with_given_tag, 2) * weight
+                if tag in tag_list:
+                    tag_list[tag] += idf_value
+                else:
+                    tag_list[tag] = idf_value
 
     for key, value in sorted(tag_list.items(), key=lambda x: x[1], reverse=True):
         all_tag_list.append({'actorid': actor_id, 'tag': key, 'tfidfweight': value})
-        print('  <' + str(key) + ', ' + str(value) + '>')
+        print('  ' + str(key) + ', ' + str(value) + '')
 
     return all_tag_list
 

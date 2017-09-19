@@ -17,37 +17,31 @@ def __get_all_tags_in_genre__(movie_set):
     for index, row in movie_set.iterrows():
         records = __genreTagTable[__genreTagTable['movieid'] == row['movieid']]
         tags_weight += records['weight'].sum()
-        for index2, row2 in records.iterrows():
-            if row2['tag'] not in tags_list:
-                tags_list.append(row2['tag'])
+        tags_list = list(set(tags_list) | set(records.tag.unique().tolist()))
 
     return {'tags': tags_list, 'weight': tags_weight}
 
 
 # Returns all genres in DB
 def __get_all_genre_list__():
-    genre_list = []
-    for index, row in Data.ml_movies.iterrows():
-        for genre in row['genres'].split('|'):
-            if genre not in genre_list:
-                genre_list.append(genre)
-
-    return genre_list
+    return Data.pd.DataFrame(Data.ml_movies.genres.str.split('|').tolist()).stack().unique().tolist()
 
 
 # Returns list of unique tags (time stamp weight added for multiple entries) in given movie set
-# count of tags (based of tag timestamp) in movies of given genre / total count of movies in given genre
-def __get_all_tag_weight(movies, count):
+# count of tags (based of tag timestamp) in movies of given genre / total count of tags in given genre
+def __get_all_tag_weight(movies, genre):
     tags = __get_all_tags_in_genre__(movies)
     tag_list = {}
     for tag in tags['tags']:
-        rec = __genreTagTable[__genreTagTable['tag'] == tag]
+        rec = __genreTagTable[(__genreTagTable['tag'] == tag) & (__genreTagTable['genres'].str.contains(genre))]
         for index, row in rec.iterrows():
             time_weight = round(row.weight / tags['weight'], 6) * 1000
-            if tag in tag_list:
-                tag_list[tag] += round(time_weight / count, 6)
-            else:
-                tag_list[tag] = round(time_weight / count, 6)
+            tag_count = len(tags['tags'])
+            if tag_count > 0:
+                if tag in tag_list:
+                    tag_list[tag] += round(time_weight / tag_count, 6)
+                else:
+                    tag_list[tag] = round(time_weight / tag_count, 6)
 
     return tag_list
 
@@ -56,35 +50,36 @@ def __get_all_tag_weight(movies, count):
 def __get_tf_for_genre__(genre):
     movies = Data.ml_movies[Data.ml_movies['genres'].map(lambda genres: genre in genres)]
     all_tag_list = []
-    tf_value = __get_all_tag_weight(movies, len(movies.groupby('movieid')))
+    tf_value = __get_all_tag_weight(movies, genre)
 
     for key, value in sorted(tf_value.items(), key=lambda x: x[1], reverse=True):
         all_tag_list.append({'tag': str(key), 'tfweight': str(round(value, 8))})
-        print('  <' + str(key) + ', ' + str(round(value, 8)) + '>')
+        print('  ' + str(key) + ', ' + str(round(value, 8)) + '')
 
     return all_tag_list
 
 
 # Computes TF IDF values
-# count of movies in DB / count of tags (based of tag timestamp) in movies in DB
+# count of genres in DB / total genres count having given tag in DB
 def __get_tfidf_for_genre__(genre):
     movies = Data.ml_movies[Data.ml_movies['genres'].map(lambda genres: genre in genres)]
-    movies_count = len(Data.ml_movies.groupby('movieid'))
-    all_tag_count = len(__get_all_tag_weight(Data.ml_movies, movies_count))
-    tf_value = __get_all_tag_weight(movies, len(movies))
+    genre_count = len(__get_all_genre_list__())
+    tf_value = __get_all_tag_weight(movies, genre)
     tag_list = {}
     all_tag_list = []
-    log_value = round(math.log((movies_count / all_tag_count), 2), 8)
     for tag, weight in tf_value.iteritems():
-        tfidf_value = weight * log_value
-        if tag in tag_list.keys():
-            tag_list[tag] += tfidf_value
-        else:
-            tag_list[tag] = tfidf_value
+        total_genres_with_tag = len(Data.pd.DataFrame(__genreTagTable[(__genreTagTable['tag'] == tag)]['genres'].str.split('|').tolist()).stack().unique())
+        if total_genres_with_tag > 0:
+            log_value = round(math.log((genre_count / total_genres_with_tag), 2), 8)
+            tfidf_value = weight * log_value
+            if tag in tag_list.keys():
+                tag_list[tag] += tfidf_value
+            else:
+                tag_list[tag] = tfidf_value
 
     for key, value in sorted(tag_list.items(), key=lambda x: x[1], reverse=True):
         all_tag_list.append({'tag': key, 'tfidfweight': round(value, 8)})
-        print('  <' + str(key) + ', ' + str(round(value, 8)) + '>')
+        print('  ' + str(key) + ', ' + str(round(value, 8)) + '')
 
     return all_tag_list
 
@@ -99,13 +94,25 @@ def get_movies_by_genre(genre, model):
 
 # Saves genre model in output folder
 def process_all_genre():
-    genre_list = []
+    tf_list = []
+    tf_idf_list = []
     genres = __get_all_genre_list__()
-
     for genre in genres:
         tf_value = __get_tf_for_genre__(genre)
+        for entry in tf_value:
+            entry_dict = {'genre': genre}
+            for key, value in entry.iteritems():
+                entry_dict[key] = value
+            tf_list.append(entry_dict)
         tf_idf_value = __get_tfidf_for_genre__(genre)
-        genre_list.append({'genre': genre, 'tfweight': tf_value, 'tfidfweight': tf_idf_value})
+        for entry in tf_idf_value:
+            entry_dict = {'genre': genre}
+            for key, value in entry.iteritems():
+                entry_dict[key] = value
+            tf_idf_list.append(entry_dict)
 
-    frame = Data.pd.DataFrame(genre_list)
-    Data.save_df(frame, 'Genre-Model.csv')
+    tf_data_frame = Data.pd.DataFrame(tf_list)
+    tf_idf_data_frame = Data.pd.DataFrame(tf_idf_list)
+    tf_data_frame['tfidfweight'] = tf_data_frame.apply(
+        lambda new_row: tf_idf_data_frame[tf_idf_data_frame['tag'] == new_row['tag']].iloc[0].tfidfweight, axis=1)
+    Data.save_df(tf_data_frame, 'Genre-Model.csv')

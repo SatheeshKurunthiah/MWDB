@@ -1,20 +1,2354 @@
-genre,tfidfweight,tfweight
-Thriller,0.140808653278,0.0145105165372
-Action,0.164657953769,0.0169682182559
-Comedy,0.0493707350055,0.00508771904335
-Drama,0.0374723575248,0.00386157562688
-Romance,0.159091233403,0.0163945604157
-Horror,0.519330663726,0.053517706539
-Mystery,0.667250943547,0.0687610855257
-Animation,1.19758490874,0.123412696723
-Children,0.834126783476,0.0859578598615
-War,1.44052566774,0.148448060807
-Adventure,0.374250298134,0.038566984441
-Crime,0.269484268227,0.0277707075495
-Fantasy,0.896199472097,0.0923545318968
-Documentary,0.480631066379,0.0495296622376
-Musical,2.82702654667,0.291328796219
-Sci-Fi,0.561513664158,0.0578647201004
-IMAX,8.18377049584,0.843348291118
-Western,4.50141005709,0.463876214662
-Film-Noir,0.0,0.0
+genre,tag,tfweight,tfidfweight
+Thriller,time travel,0.230716,0.18191862
+Thriller,tarantino,0.142874,0.3211704
+Thriller,psychology,0.141636,0.15268396
+Thriller,philip k. dick,0.135548,0.26106537
+Thriller,action,0.132712,0.12289124
+Thriller,serial killer,0.12802,0.21289278
+Thriller,comic book,0.108112,0.10011165
+Thriller,heist,0.098982,0.19063927
+Thriller,nudity (topless),0.097117,0.06438517
+Thriller,violent,0.079865,0.11505133
+Thriller,sci-fi,0.078964,0.06226279
+Thriller,remake,0.078767,0.0729382
+Thriller,zombies,0.078281,0.08438711
+Thriller,surreal,0.072353,0.05705004
+Thriller,mindfuck,0.066913,0.09639303
+Thriller,vampires,0.065388,0.12593725
+Thriller,future,0.06498,0.0700486
+Thriller,super-hero,0.059957,0.09970639
+Thriller,twist ending,0.059402,0.05500622
+Thriller,drugs,0.058441,0.05411633
+Thriller,dystopia,0.056627,0.0815753
+Thriller,revenge,0.053431,0.10290808
+Thriller,overrated,0.053358,0.02921285
+Thriller,thriller,0.051174,0.04738709
+Thriller,nudity (full frontal - notable),0.050763,0.08441709
+Thriller,parody,0.045691,0.04925501
+Thriller,directorial debut,0.045024,0.04853599
+Thriller,boring,0.044377,0.04109308
+Thriller,bond,0.044252,0.11784153
+Thriller,hannibal lecter,0.043909,0.09870425
+Thriller,crime,0.043391,0.07215771
+Thriller,nudity (topless - brief),0.042073,0.03895957
+Thriller,murder,0.041657,0.05198492
+Thriller,nudity (topless - notable),0.04142,0.04465086
+Thriller,franchise,0.041394,0.05165671
+Thriller,james bond,0.034802,0.07823237
+Thriller,vampire,0.034662,0.07791766
+Thriller,video game adaptation,0.032763,0.0353186
+Thriller,horror,0.032569,0.04691801
+Thriller,based on a book,0.03174,0.01398377
+Thriller,oscar (best actor),0.031735,0.07133798
+Thriller,true story,0.031677,0.02933288
+Thriller,scary,0.031338,0.083452
+Thriller,easily confused with other movie(s) (title),0.03029,0.05833852
+Thriller,quirky,0.02998,0.01987569
+Thriller,aliens,0.029069,0.036276
+Thriller,drama,0.028571,0.02645673
+Thriller,martial arts,0.02769,0.05333092
+Thriller,mystery,0.026778,0.03857565
+Thriller,surprise ending,0.02644,0.05092342
+Thriller,violence,0.025556,0.03681527
+Thriller,sequel,0.025275,0.02340464
+Thriller,cannibalism,0.024488,0.06521069
+Thriller,religion,0.02357,0.0339543
+Thriller,sci fi,0.023251,0.05226656
+Thriller,imdb top 250,0.022933,0.01255554
+Thriller,artificial intelligence,0.022503,0.05058511
+Thriller,star trek,0.022256,0.05002987
+Thriller,gothic,0.021285,0.02656214
+Thriller,japan,0.020242,0.03366174
+Thriller,las vegas,0.019348,0.05152305
+Thriller,dynamic cgi action,0.018912,0.0364245
+Thriller,caper,0.01886,0.05022352
+Thriller,bloody,0.018797,0.05005575
+Thriller,science,0.018695,0.042025
+Thriller,space,0.018536,0.03570033
+Thriller,disturbing,0.018493,0.02664051
+Thriller,submarine,0.018469,0.0307133
+Thriller,gambling,0.018338,0.03531898
+Thriller,ensemble cast,0.01831,0.03526505
+Thriller,amazing cinematography,0.017942,0.02584675
+Thriller,holocaust,0.017908,0.04768838
+Thriller,pointless,0.017859,0.02572719
+Thriller,blood,0.017705,0.0471478
+Thriller,cinematography,0.017449,0.03360676
+Thriller,interesting,0.017175,0.01138642
+Thriller,superhero,0.017025,0.02831198
+Thriller,ridiculous,0.016952,0.02819058
+Thriller,adapted from:game,0.016464,0.02371759
+Thriller,atmospheric,0.016227,0.01502619
+Thriller,based on a tv show,0.016024,0.01483821
+Thriller,slasher,0.015914,0.04237843
+Thriller,london,0.015676,0.01956251
+Thriller,stylized,0.015198,0.034164
+Thriller,not funny,0.015092,0.01883372
+Thriller,futuristic,0.015073,0.03388301
+Thriller,gay,0.014638,0.02434248
+Thriller,nudity (rear),0.014401,0.00954736
+Thriller,narrated,0.014343,0.03224202
+Thriller,robots,0.014217,0.03195879
+Thriller,complicated,0.014198,0.03191607
+Thriller,good,0.014082,0.01518043
+Thriller,zombie,0.014048,0.02023716
+Thriller,pg-13,0.013972,0.01506185
+Thriller,bad acting,0.013005,0.01873465
+Thriller,geeks,0.012493,0.05306936
+Thriller,poker,0.012411,0.03305006
+Thriller,alien,0.011991,0.01727391
+Thriller,comics,0.01186,0.02666042
+Thriller,cia,0.011072,0.02488905
+Thriller,mental hospital,0.010855,0.03525625
+Thriller,cult film,0.010836,0.02885589
+Thriller,based on a play,0.010836,0.02885589
+Thriller,marvel,0.010778,0.01552649
+Thriller,torture,0.010101,0.01945452
+Thriller,fascism,0.010019,0.01929659
+Thriller,stupid,0.009952,0.01433658
+Thriller,australian,0.009855,0.02215333
+Thriller,immigrants,0.009831,0.02209938
+Thriller,schizophrenia,0.009802,0.03183619
+Thriller,80s,0.009802,0.02203419
+Thriller,visceral,0.009797,0.02608907
+Thriller,slapstick,0.009652,0.031349
+Thriller,corny,0.009618,0.01852426
+Thriller,kidnapping,0.009237,0.01779046
+Thriller,virus,0.009227,0.02074163
+Thriller,political,0.009164,0.02060001
+Thriller,dark,0.009159,0.01142977
+Thriller,pornography,0.009155,0.02057978
+Thriller,father-son relationship,0.009155,0.02057978
+Thriller,con men,0.00915,0.02436613
+Thriller,author:alan moore,0.009063,0.02037297
+Thriller,shark,0.009029,0.02932554
+Thriller,antarctica,0.008908,0.01481369
+Thriller,imaginary friend,0.008754,0.02843236
+Thriller,sexy,0.008739,0.01964464
+Thriller,blindness,0.0087,0.0231678
+Thriller,spaghetti western,0.008676,0.02310388
+Thriller,great soundtrack,0.008667,0.01441292
+Thriller,los angeles,0.008657,0.01946031
+Thriller,unintentionally funny,0.008638,0.0194176
+Thriller,detective,0.008609,0.01658093
+Thriller,western,0.008594,0.02288552
+Thriller,bad sequel,0.008589,0.01930745
+Thriller,sappy,0.008551,0.01922203
+Thriller,bizarre,0.008546,0.01921079
+Thriller,alien invasion,0.008541,0.01919955
+Thriller,comedy,0.008527,0.0067235
+Thriller,meditative,0.008507,0.02763012
+Thriller,masterpiece,0.008502,0.02264053
+Thriller,fantasy,0.008502,0.01224775
+Thriller,suspense,0.008478,0.02753593
+Thriller,weird,0.008459,0.0121858
+Thriller,literary adaptation,0.00842,0.01212962
+Thriller,claustrophobic,0.008222,0.01848246
+Thriller,not as good as the first,0.008222,0.01848246
+Thriller,computer game,0.008198,0.01578934
+Thriller,book was better,0.008097,0.01346503
+Thriller,thought-provoking,0.008097,0.00872859
+Thriller,alter ego,0.008058,0.0181138
+Thriller,motorcycle,0.008014,0.013327
+Thriller,courtroom drama,0.008014,0.02602889
+Thriller,clever,0.007947,0.01786428
+Thriller,casino,0.007841,0.02088031
+Thriller,paranoid,0.007696,0.01482249
+Thriller,sexualized violence,0.007652,0.02037701
+Thriller,mental illness,0.007643,0.0110103
+Thriller,gritty,0.007618,0.02028647
+Thriller,eerie,0.007618,0.02474271
+Thriller,espionage,0.007522,0.00938691
+Thriller,ireland,0.007478,0.01681
+Thriller,addiction,0.007343,0.01955415
+Thriller,unique,0.007324,0.00913982
+Thriller,gore,0.007222,0.02345653
+Thriller,teen,0.007203,0.01387297
+Thriller,war,0.007111,0.00658478
+Thriller,gory,0.007058,0.01586587
+Thriller,court,0.007029,0.02282968
+Thriller,dinosaurs,0.007029,0.01580068
+Thriller,pg,0.006986,0.00753093
+Thriller,new york city,0.006913,0.00862692
+Thriller,intellectual,0.00685,0.0153983
+Thriller,strange,0.006797,0.01130317
+Thriller,biography,0.006749,0.01299857
+Thriller,police,0.006657,0.01282138
+Thriller,prejudice,0.006377,0.02071203
+Thriller,notable nudity,0.006353,0.00684855
+Thriller,great movie,0.006237,0.00778332
+Thriller,courtroom,0.006179,0.01388994
+Thriller,glbt,0.00615,0.01997475
+Thriller,waste of time,0.006043,0.00476488
+Thriller,dance,0.006029,0.01355275
+Thriller,creepy,0.005903,0.01326952
+Thriller,stupidity,0.005889,0.01912705
+Thriller,very interesting,0.005865,0.00975329
+Thriller,oscar (best actress),0.005802,0.01304248
+Thriller,super hero,0.005778,0.01298853
+Thriller,plot holes,0.005768,0.00830922
+Thriller,treasure,0.005754,0.0110822
+Thriller,great cinematography,0.005739,0.01105331
+Thriller,robbery,0.005734,0.01288962
+Thriller,underrated,0.005734,0.00826024
+Thriller,witty,0.00571,0.01099746
+Thriller,chick flick,0.005705,0.00821847
+Thriller,disappointing,0.0057,0.0094789
+Thriller,artsy,0.005691,0.01515493
+Thriller,british,0.005662,0.00815652
+Thriller,great,0.005628,0.00935917
+Thriller,new york,0.005628,0.00702334
+Thriller,predictable,0.005623,0.0070171
+Thriller,photography,0.005614,0.01494989
+Thriller,plot twist,0.005604,0.01492326
+Thriller,romance,0.005594,0.00518004
+Thriller,terrorism,0.005594,0.01489663
+Thriller,special effects,0.005589,0.01256367
+Thriller,funny,0.005589,0.00370531
+Thriller,hilarious,0.00558,0.00601525
+Action,comic book,0.259521,0.10011165
+Action,action,0.220792,0.12289124
+Action,vampires,0.159076,0.12593725
+Action,tarantino,0.143676,0.3211704
+Action,super-hero,0.138509,0.09970639
+Action,philip k. dick,0.136309,0.26106537
+Action,sci-fi,0.108513,0.06226279
+Action,superhero,0.103463,0.02831198
+Action,zombies,0.086389,0.08438711
+Action,video game adaptation,0.081752,0.0353186
+Action,adventure,0.079179,0.13167191
+Action,war,0.078149,0.00658478
+Action,vampire,0.075502,0.07791766
+Action,martial arts,0.067244,0.05333092
+Action,time travel,0.067109,0.18191862
+Action,future,0.065344,0.0700486
+Action,dystopia,0.064979,0.0815753
+Action,pirates,0.061443,0.0885131
+Action,history,0.060464,0.10054952
+Action,remake,0.060189,0.0729382
+Action,violent,0.058223,0.11505133
+Action,parody,0.055801,0.04925501
+Action,nudity (topless),0.055464,0.06438517
+Action,overrated,0.053656,0.02921285
+Action,based on a tv show,0.052871,0.01483821
+Action,sequel,0.051377,0.02340464
+Action,drugs,0.049468,0.05411633
+Action,revenge,0.049298,0.10290808
+Action,bond,0.044514,0.11784153
+Action,dynamic cgi action,0.044366,0.0364245
+Action,violence,0.042765,0.03681527
+Action,franchise,0.04264,0.05165671
+Action,murder,0.04204,0.05198492
+Action,robots,0.041075,0.03195879
+Action,vietnam war,0.038253,0.1018664
+Action,boring,0.03709,0.04109308
+Action,big budget,0.036536,0.05263276
+Action,gothic,0.03535,0.02656214
+Action,james bond,0.034995,0.07823237
+Action,motorcycle,0.034533,0.013327
+Action,werewolves,0.033761,0.07589228
+Action,based on a book,0.031924,0.01398377
+Action,comedy,0.031503,0.0067235
+Action,space,0.030004,0.03570033
+Action,heist,0.029453,0.19063927
+Action,espionage,0.026418,0.00938691
+Action,directorial debut,0.025736,0.04853599
+Action,dark,0.025393,0.01142977
+Action,marvel,0.02502,0.01552649
+Action,adapted from:game,0.024837,0.02371759
+Action,heroine in tight suit,0.024747,0.0411534
+Action,reality tv,0.023816,0.05353664
+Action,amazing cinematography,0.023711,0.02584675
+Action,futuristic,0.023686,0.03388301
+Action,sci fi,0.023372,0.05226656
+Action,imdb top 250,0.023061,0.01255554
+Action,artificial intelligence,0.022631,0.05058511
+Action,star trek,0.022384,0.05002987
+Action,cars,0.022054,0.07162979
+Action,dinosaurs,0.021806,0.01580068
+Action,bad acting,0.021712,0.01873465
+Action,crappy sequel,0.02094,0.05576249
+Action,puppets,0.020851,0.04015901
+Action,lesbian,0.020557,0.03418557
+Action,japan,0.020359,0.03366174
+Action,funny,0.02001,0.00370531
+Action,bloody,0.018906,0.05005575
+Action,very good,0.018627,0.01019806
+Action,submarine,0.018577,0.0307133
+Action,atmospheric,0.018463,0.01502619
+Action,dc comics,0.018384,0.04895595
+Action,true story,0.01784,0.02933288
+Action,blood,0.017806,0.0471478
+Action,not funny,0.017024,0.01883372
+Action,adapted from:comic,0.016835,0.03784386
+Action,dragons,0.016518,0.03713127
+Action,war movie,0.016378,0.04361404
+Action,alter ego,0.016208,0.0181138
+Action,nudity (topless - notable),0.01601,0.04465086
+Action,historical,0.015413,0.02968543
+Action,stylized,0.015284,0.034164
+Action,oscar (best cinematography),0.015273,0.02941579
+Action,world war ii,0.015244,0.03426741
+Action,spying,0.015209,0.03418873
+Action,thriller,0.014975,0.04738709
+Action,drama,0.014826,0.02645673
+Action,nudity (rear),0.014667,0.00954736
+Action,interesting,0.014174,0.01138642
+Action,zombie,0.014124,0.02023716
+Action,new york,0.014005,0.00702334
+Action,underrated,0.013916,0.00826024
+Action,new york city,0.01391,0.00862692
+Action,nudity (topless - brief),0.01383,0.03895957
+Action,politics,0.013627,0.02266122
+Action,swashbuckler,0.012971,0.02157032
+Action,police,0.012911,0.01282138
+Action,plot holes,0.012866,0.00830922
+Action,star wars,0.012453,0.02799344
+Action,alien,0.012054,0.01727391
+Action,japanese,0.01198,0.02693017
+Action,cool,0.011846,0.02662895
+Action,super hero,0.011622,0.01298853
+Action,fun,0.011314,0.01629864
+Action,cia,0.011134,0.02488905
+Action,cult film,0.010896,0.02885589
+Action,irreverent,0.010716,0.02063901
+Action,god,0.010483,0.02019025
+Action,torture,0.010154,0.01945452
+Action,steampunk,0.0101,0.02270407
+Action,post apocalyptic,0.010085,0.02267035
+Action,fascism,0.010075,0.01929659
+Action,bullshit history,0.009697,0.02179815
+Action,corny,0.009672,0.01852426
+Action,ghosts,0.009438,0.02121594
+Action,buddy movie,0.009303,0.02477356
+Action,ridiculous,0.009289,0.02819058
+Action,kidnapping,0.009289,0.01779046
+Action,virus,0.009279,0.02074163
+Action,hackers,0.009249,0.02462976
+Action,ensemble cast,0.009204,0.03526505
+Action,mutants,0.009134,0.02432352
+Action,chris tucker,0.009114,0.02960161
+Action,antarctica,0.008955,0.01481369
+Action,crime,0.0089,0.07215771
+Action,spaghetti western,0.008726,0.02310388
+Action,great soundtrack,0.008716,0.01441292
+Action,video game,0.008716,0.02830894
+Action,los angeles,0.008706,0.01946031
+Action,aviation,0.008687,0.02313318
+Action,based on a video game,0.008662,0.02813355
+Action,detective,0.008657,0.01658093
+Action,sexy,0.008642,0.01964464
+Action,western,0.008642,0.02288552
+Action,bad sequel,0.008637,0.01930745
+Action,sappy,0.008602,0.01922203
+Action,exciting,0.008592,0.02790619
+Action,comic book adaption,0.008582,0.02285357
+Action,hacking,0.008577,0.02284025
+Action,masterpiece,0.008552,0.02264053
+Action,graphic novel,0.008552,0.01922428
+Action,science fiction,0.008552,0.02277368
+Action,gay,0.008532,0.02434248
+Action,literary adaptation,0.008468,0.01212962
+Action,satire,0.008294,0.00894095
+Action,not as good as the first,0.008269,0.01848246
+Action,computer game,0.008244,0.01578934
+Action,saturn award (best special effects),0.008159,0.02172713
+Action,book was better,0.008139,0.01346503
+Action,thought-provoking,0.008139,0.00872859
+Action,adapted from:book,0.008095,0.01166144
+Action,peter pan,0.008095,0.0134617
+Action,queer,0.008025,0.02137029
+Action,biographical,0.008025,0.01803962
+Action,slasher,0.008,0.04237843
+Action,culture clash,0.007925,0.01781483
+Action,epic,0.007821,0.01758104
+Action,kick-butt women,0.007821,0.02540204
+Action,twist ending,0.007791,0.05500622
+Action,horses,0.007751,0.01742369
+Action,paranoid,0.007736,0.01482249
+Action,factual,0.007706,0.02052081
+Action,sexualized violence,0.007697,0.02037701
+Action,predictable,0.007423,0.0070171
+Action,campy,0.007333,0.01412335
+Action,cross dressing,0.007214,0.01621655
+Action,africa,0.007144,0.01605919
+Action,wuxia,0.007129,0.02315448
+Action,classic,0.007065,0.01017765
+Action,court,0.007065,0.02282968
+Action,too long,0.00704,0.01582541
+Action,pg,0.007025,0.00753093
+Action,notable nudity,0.006876,0.00684855
+Action,video games,0.006866,0.01828392
+Action,visually appealing,0.006622,0.01275397
+Action,alternate universe,0.006473,0.01723737
+Action,hilarious,0.006378,0.00601525
+Action,surreal,0.006373,0.05705004
+Action,magic,0.005975,0.00860742
+Action,over the top,0.005836,0.01554106
+Action,middle east,0.005816,0.01307395
+Action,series,0.005816,0.0154878
+Action,quirky,0.005816,0.01987569
+Action,monsters,0.005811,0.01306271
+Action,medieval,0.005806,0.01305147
+Action,treasure,0.005786,0.0110822
+Action,great cinematography,0.005771,0.01105331
+Action,robbery,0.005766,0.01288962
+Action,waste of time,0.005746,0.00476488
+Action,france,0.005736,0.01863011
+Action,chick flick,0.005736,0.00821847
+Action,nuclear,0.005697,0.01517091
+Action,british,0.005697,0.00815652
+Action,good,0.005687,0.01518043
+Action,television,0.005682,0.01513097
+Action,england,0.005682,0.00944897
+Action,wwii,0.005672,0.01510434
+Action,girlie movie,0.005637,0.01267157
+Action,terrorism,0.005627,0.01489663
+Action,special effects,0.005622,0.01256367
+Action,spoof,0.005617,0.01262661
+Action,transformation,0.005612,0.01494456
+Comedy,comedy,0.122645,0.0067235
+Comedy,romance,0.116091,0.00518004
+Comedy,pixar,0.106262,0.20466055
+Comedy,parody,0.08412,0.04925501
+Comedy,funny,0.077937,0.00370531
+Comedy,zombies,0.056348,0.08438711
+Comedy,surreal,0.055225,0.05705004
+Comedy,lesbian,0.050607,0.03418557
+Comedy,nudity (topless),0.049307,0.06438517
+Comedy,animation,0.047684,0.07929682
+Comedy,heist,0.041298,0.19063927
+Comedy,overrated,0.04097,0.02921285
+Comedy,quirky,0.039162,0.01987569
+Comedy,chick flick,0.038746,0.00821847
+Comedy,not funny,0.038641,0.01883372
+Comedy,high school,0.03672,0.09778408
+Comedy,hilarious,0.036177,0.00601525
+Comedy,based on a book,0.03409,0.01398377
+Comedy,good romantic comedies,0.032497,0.08653837
+Comedy,fairy tale,0.031276,0.04505535
+Comedy,satire,0.029096,0.00894095
+Comedy,soccer,0.028935,0.06504378
+Comedy,pirates,0.027378,0.0885131
+Comedy,family,0.026884,0.04470715
+Comedy,black comedy,0.026653,0.05991401
+Comedy,girlie movie,0.026616,0.01267157
+Comedy,pg-13,0.024074,0.01506185
+Comedy,teen,0.022973,0.01387297
+Comedy,religion,0.022695,0.0339543
+Comedy,drama,0.022214,0.02645673
+Comedy,disney,0.021348,0.0230132
+Comedy,funniest movies,0.021072,0.04058466
+Comedy,based on a tv show,0.020509,0.01483821
+Comedy,funny as hell,0.020386,0.0339012
+Comedy,memory,0.020032,0.04503048
+Comedy,crime,0.019746,0.07215771
+Comedy,sequel,0.019013,0.02340464
+Comedy,spelling bee,0.018978,0.06163917
+Comedy,bollywood,0.018171,0.04084709
+Comedy,god,0.017371,0.02019025
+Comedy,wedding,0.017229,0.04588022
+Comedy,existentialism,0.017228,0.0559553
+Comedy,nudity (topless - notable),0.017097,0.04465086
+Comedy,japan,0.016927,0.03366174
+Comedy,guilty pleasure,0.016727,0.03760108
+Comedy,stupid,0.016108,0.01433658
+Comedy,remake,0.015537,0.0729382
+Comedy,sexuality,0.015485,0.04123601
+Comedy,martial arts,0.015448,0.05333092
+Comedy,directorial debut,0.015316,0.04853599
+Comedy,true story,0.015235,0.02933288
+Comedy,college,0.015086,0.03391223
+Comedy,imdb top 250,0.015077,0.01255554
+Comedy,british,0.014981,0.00815652
+Comedy,relationships,0.014802,0.03327382
+Comedy,wine,0.014622,0.0328692
+Comedy,cute,0.014053,0.02336965
+Comedy,queer,0.013978,0.02137029
+Comedy,road trip,0.013949,0.0371457
+Comedy,gay,0.013904,0.02434248
+Comedy,cartoon,0.013279,0.02208251
+Comedy,dreamworks,0.013241,0.01907462
+Comedy,action,0.013045,0.12289124
+Comedy,adapted from:book,0.012714,0.01166144
+Comedy,bdsm,0.012674,0.03375042
+Comedy,very funny,0.012502,0.02079039
+Comedy,bittersweet,0.0124,0.0278743
+Comedy,sports,0.012383,0.02783609
+Comedy,suprisingly clever,0.012323,0.05234721
+Comedy,rock and roll,0.012172,0.03241361
+Comedy,psychology,0.011878,0.15268396
+Comedy,british comedy,0.011736,0.03125256
+Comedy,talking animals,0.011274,0.01874827
+Comedy,jay and silent bob,0.011144,0.0473389
+Comedy,crappy sequel,0.011102,0.05576249
+Comedy,spoof,0.011019,0.01262661
+Comedy,good,0.010781,0.01518043
+Comedy,las vegas,0.010667,0.05152305
+Comedy,whimsical,0.010361,0.01995528
+Comedy,very good,0.010292,0.01019806
+Comedy,touching,0.010117,0.02274228
+Comedy,sex,0.009955,0.01917332
+Comedy,brilliant,0.009931,0.0191271
+Comedy,india,0.00991,0.01908665
+Comedy,fun,0.009908,0.01629864
+Comedy,adolescence,0.009841,0.02620624
+Comedy,london,0.009825,0.01956251
+Comedy,murder,0.009823,0.05198492
+Comedy,animated,0.00975,0.01877849
+Comedy,atmospheric,0.009556,0.01502619
+Comedy,artistic,0.009426,0.03061496
+Comedy,england,0.009384,0.00944897
+Comedy,video game adaptation,0.009044,0.0353186
+Comedy,cars,0.008648,0.07162979
+Comedy,music,0.008632,0.01940411
+Comedy,zombie,0.008628,0.02023716
+Comedy,christmas,0.008349,0.01876795
+Comedy,romantic,0.00826,0.02199609
+Comedy,puppets,0.008178,0.04015901
+Comedy,coen bros,0.008036,0.02610035
+Comedy,teen movie,0.008028,0.03410236
+Comedy,dumb but funny,0.007829,0.02542802
+Comedy,ocean,0.007598,0.01707975
+Comedy,politics,0.007549,0.02266122
+Comedy,australian,0.007511,0.02215333
+Comedy,adventure,0.007467,0.13167191
+Comedy,caper,0.007435,0.05022352
+Comedy,swashbuckler,0.007315,0.02157032
+Comedy,twist ending,0.007301,0.05500622
+Comedy,ensemble cast,0.00722,0.03526505
+Comedy,melancholic,0.007092,0.0159423
+Comedy,cheerleading,0.006898,0.0293022
+Comedy,stoner movie,0.006882,0.02923424
+Comedy,sci-fi,0.006784,0.06226279
+Comedy,romantic comedy,0.006765,0.01801496
+Comedy,stupid as hell,0.006761,0.02872024
+Comedy,dumb,0.006683,0.0283889
+Comedy,sweet,0.006674,0.02167667
+Comedy,pg,0.006666,0.00753093
+Comedy,great soundtrack,0.00666,0.01441292
+Comedy,police,0.006492,0.01282138
+Comedy,magic,0.006483,0.00860742
+Comedy,amnesia,0.006457,0.01451487
+Comedy,slow,0.006441,0.0144789
+Comedy,reality tv,0.00642,0.05353664
+Comedy,mental illness,0.006377,0.0110103
+Comedy,goofy,0.006219,0.02641786
+Comedy,football,0.006172,0.01387421
+Comedy,philosophy,0.006098,0.01014076
+Comedy,love,0.006096,0.01370337
+Comedy,mockumentary,0.006083,0.01619882
+Comedy,spying,0.005965,0.03418873
+Comedy,weird,0.005908,0.0121858
+Comedy,literature,0.005873,0.01907508
+Comedy,computer animation,0.005857,0.00843743
+Comedy,cross dressing,0.005854,0.01621655
+Comedy,drugs,0.005847,0.05411633
+Comedy,nudity (topless - brief),0.005746,0.03895957
+Comedy,redemption,0.005721,0.01101864
+Comedy,nudity (rear),0.005667,0.00954736
+Comedy,realistic,0.005641,0.01268056
+Comedy,classic,0.005603,0.01017765
+Comedy,predictable,0.005597,0.0070171
+Comedy,movie business,0.005596,0.01490195
+Comedy,fun movie,0.005581,0.01254568
+Comedy,scenic,0.005537,0.01066426
+Comedy,nudity (full frontal - notable),0.005404,0.08441709
+Comedy,war,0.005384,0.00658478
+Comedy,witty,0.005264,0.01099746
+Comedy,president,0.005241,0.01702239
+Comedy,berlin,0.005206,0.0138634
+Comedy,switching places,0.005105,0.01658067
+Comedy,interesting,0.005038,0.01138642
+Comedy,pretentious,0.004946,0.01606425
+Comedy,memory loss,0.004898,0.00943355
+Comedy,comic book,0.004813,0.10011165
+Comedy,farce,0.004797,0.02037731
+Comedy,narrated,0.004788,0.03224202
+Comedy,dark,0.004714,0.01142977
+Comedy,oscar (best animated feature),0.004642,0.00771948
+Comedy,very interesting,0.00459,0.00975329
+Comedy,horror,0.00454,0.04691801
+Comedy,oscar winner,0.004526,0.00652003
+Comedy,school,0.004502,0.01012017
+Comedy,tokyo,0.004496,0.01197269
+Comedy,boring,0.004482,0.04109308
+Comedy,great,0.004454,0.00935917
+Comedy,fairy tales,0.004413,0.00635725
+Comedy,thought-provoking,0.004406,0.00872859
+Comedy,easily confused with other movie(s) (title),0.004384,0.05833852
+Comedy,coming of age,0.004254,0.01132825
+Comedy,surrealism,0.004232,0.00815083
+Comedy,musicians,0.004206,0.01120043
+Comedy,irreverent,0.004203,0.02063901
+Comedy,period piece,0.004171,0.00937611
+Comedy,alien invasion,0.004152,0.01919955
+Comedy,working class,0.00406,0.01318659
+Comedy,unique,0.004022,0.00913982
+Comedy,inspirational,0.004022,0.01071045
+Comedy,friendship,0.003914,0.01271239
+Comedy,immigrants,0.003876,0.02209938
+Comedy,san francisco,0.003835,0.01021247
+Comedy,silly,0.003813,0.01619735
+Comedy,feel good movie,0.003813,0.00634089
+Comedy,italy,0.00381,0.0101459
+Comedy,black and white,0.003759,0.01220896
+Comedy,nerds,0.003727,0.01583203
+Comedy,ghosts,0.003702,0.02121594
+Comedy,espionage,0.003695,0.00938691
+Comedy,buddy movie,0.003648,0.02477356
+Comedy,ridiculous,0.003641,0.02819058
+Comedy,geek,0.003629,0.01541573
+Comedy,ireland,0.003587,0.01681
+Comedy,chris tucker,0.003575,0.02960161
+Comedy,island,0.003575,0.01161134
+Comedy,obsession,0.003575,0.00803634
+Comedy,suburbia,0.003552,0.01153664
+Comedy,nudity,0.00353,0.01146518
+Comedy,violent,0.003451,0.11505133
+Comedy,prison,0.003429,0.00770814
+Comedy,supernatural,0.003419,0.01452366
+Comedy,cute!,0.003416,0.00568069
+Comedy,mother-son relationship,0.003403,0.0110527
+Comedy,excellent,0.003397,0.00763621
+Comedy,literary adaptation,0.00339,0.01212962
+Comedy,future,0.00339,0.0700486
+Comedy,bad sequel,0.003387,0.01930745
+Comedy,satirical,0.003381,0.01098124
+Comedy,heartwarming,0.003381,0.01098124
+Comedy,new york city,0.003378,0.00862692
+Comedy,unlikely friendships,0.003378,0.0109715
+Comedy,love story,0.003378,0.0089955
+Comedy,cool,0.003375,0.02662895
+Comedy,bad,0.003371,0.01431976
+Comedy,humorous,0.003368,0.01430702
+Comedy,time travel,0.003362,0.18191862
+Comedy,teens,0.003362,0.00755753
+Comedy,indians,0.003359,0.00755079
+Comedy,great movie,0.003356,0.00778332
+Comedy,shallow,0.003346,0.00752157
+Comedy,1970s,0.003346,0.01086757
+Comedy,sad,0.003346,0.00752157
+Comedy,world war ii,0.003346,0.03426741
+Comedy,sentimental,0.003343,0.00890229
+Comedy,humor,0.003314,0.01407763
+Comedy,disney animated feature,0.003289,0.00473804
+Comedy,pixar animation,0.003289,0.00739343
+Comedy,competition,0.003286,0.01067269
+Comedy,dark comedy,0.003286,0.01067269
+Comedy,father daughter relationship,0.003279,0.00873186
+Comedy,adapted from:game,0.003248,0.02371759
+Comedy,not as good as the first,0.003244,0.01848246
+Comedy,computer game,0.003232,0.01578934
+Comedy,based on book,0.003184,0.0071574
+Comedy,based on a true story,0.003181,0.01351266
+Comedy,motorcycle,0.003159,0.013327
+Comedy,courtroom,0.003159,0.01388994
+Comedy,biographical,0.003146,0.01803962
+Comedy,adultery,0.003117,0.00830046
+Comedy,wistful,0.003095,0.00824188
+Comedy,love triangles,0.003092,0.00695059
+Comedy,casino,0.003092,0.02088031
+Comedy,weed,0.003083,0.01309636
+Comedy,mystery,0.003054,0.03857565
+Comedy,compassionate,0.003041,0.00809808
+Comedy,cynical,0.003041,0.00987695
+Comedy,affectionate,0.003038,0.00809009
+Comedy,musical,0.003013,0.00978601
+Comedy,monster,0.00301,0.00801552
+Comedy,james bond,0.00301,0.07823237
+Comedy,basketball,0.00301,0.00977626
+Comedy,off-beat comedy,0.00301,0.01278626
+Comedy,deadpan,0.003,0.00974378
+Comedy,lyrical,0.002994,0.00797292
+Comedy,indie,0.002975,0.00966258
+Comedy,oscar (best writing - screenplay written directly for the screen),0.002965,0.00666511
+Comedy,oscar (best music - original score),0.002962,0.0049257
+Comedy,irish,0.002949,0.00785308
+Comedy,german,0.002927,0.00950668
+Comedy,campy,0.002876,0.01412335
+Comedy,awful,0.002835,0.00408402
+Comedy,pregnancy,0.002813,0.00913642
+Comedy,colourful,0.002806,0.00911368
+Comedy,capitalism,0.002806,0.01191968
+Comedy,wuxia,0.002794,0.02315448
+Comedy,bad acting,0.002771,0.01873465
+Comedy,gambling,0.002771,0.03531898
+Comedy,pointless,0.002727,0.02572719
+Comedy,nudity (full frontal - brief),0.002714,0.00522716
+Comedy,fantasy,0.002702,0.01224775
+Comedy,nudity (full frontal),0.002702,0.00719533
+Comedy,notable nudity,0.002698,0.00684855
+Comedy,teenagers,0.002667,0.00866222
+Comedy,erotic,0.002648,0.00860051
+Comedy,boxing,0.002641,0.00857778
+Comedy,life,0.002597,0.00500182
+Comedy,sophia coppola,0.002559,0.00681453
+Comedy,thriller,0.002537,0.04738709
+Comedy,watch the credits,0.00247,0.00802238
+Comedy,passionate,0.002451,0.00796067
+Comedy,books,0.002441,0.0065003
+Comedy,feel-good,0.002419,0.00465899
+Comedy,star wars,0.002413,0.02799344
+Comedy,cgi,0.00241,0.00400775
+Comedy,canada,0.002397,0.00538828
+Comedy,horrible,0.002333,0.00524441
+Comedy,amazing cinematography,0.002321,0.02584675
+Comedy,documentary,0.002314,0.0061621
+Comedy,new york,0.002314,0.00702334
+Comedy,jane austen,0.002286,0.00608754
+Comedy,history,0.002286,0.10054952
+Comedy,strange,0.002276,0.01130317
+Comedy,plot holes,0.002276,0.00830922
+Comedy,robbery,0.00226,0.01288962
+Comedy,waste of time,0.002251,0.00476488
+Comedy,france,0.002251,0.01863011
+Comedy,idiotic,0.002238,0.00431039
+Comedy,no plot,0.002232,0.00724937
+Comedy,animal movie,0.002229,0.00501063
+Comedy,television,0.002229,0.01513097
+Comedy,money,0.002222,0.00427957
+Comedy,lawyers,0.002222,0.00943889
+Comedy,australia,0.002222,0.00499489
+Comedy,women,0.002222,0.00721689
+Comedy,fish,0.002222,0.00369511
+Comedy,depressing,0.002222,0.00499489
+Comedy,spielberg,0.002219,0.00720715
+Comedy,kids,0.002213,0.00368014
+Comedy,special,0.00221,0.00588515
+Comedy,mummy,0.002206,0.00716493
+Comedy,workplace,0.002206,0.00716493
+Comedy,cancer,0.002203,0.00715518
+Comedy,view askew,0.002203,0.00935818
+Comedy,disappointing,0.002203,0.0094789
+Comedy,suicide attempt,0.002203,0.00715518
+Drama,surreal,0.070228,0.05705004
+Drama,time travel,0.061203,0.18191862
+Drama,drama,0.06094,0.02645673
+Drama,romance,0.055911,0.00518004
+Drama,true story,0.051619,0.02933288
+Drama,overrated,0.037087,0.02921285
+Drama,nudity (topless),0.036556,0.06438517
+Drama,war,0.035586,0.00658478
+Drama,nudity (topless - notable),0.03538,0.04465086
+Drama,based on a book,0.033384,0.01398377
+Drama,remake,0.033253,0.0729382
+Drama,lesbian,0.030512,0.03418557
+Drama,quirky,0.027742,0.01987569
+Drama,nudity (full frontal - notable),0.027594,0.08441709
+Drama,genocide,0.02754,0.08944792
+Drama,world war ii,0.027395,0.03426741
+Drama,drugs,0.024585,0.05411633
+Drama,crime,0.024442,0.07215771
+Drama,directorial debut,0.024171,0.04853599
+Drama,action,0.023743,0.12289124
+Drama,boring,0.021351,0.04109308
+Drama,fantasy,0.021281,0.01224775
+Drama,tarantino,0.021207,0.3211704
+Drama,sci-fi,0.020897,0.06226279
+Drama,boxing,0.019938,0.00857778
+Drama,very good,0.019887,0.01019806
+Drama,family,0.019363,0.04470715
+Drama,psychology,0.01852,0.15268396
+Drama,imdb top 250,0.017624,0.01255554
+Drama,soccer,0.01718,0.06504378
+Drama,violent,0.016794,0.11505133
+Drama,comedy,0.016593,0.0067235
+Drama,mindfuck,0.016493,0.09639303
+Drama,nudity (topless - brief),0.016329,0.03895957
+Drama,biography,0.01628,0.01299857
+Drama,japan,0.015958,0.03366174
+Drama,oscar (best actor),0.015509,0.07133798
+Drama,history,0.015425,0.10054952
+Drama,easily confused with other movie(s) (title),0.014912,0.05833852
+Drama,thriller,0.014794,0.04738709
+Drama,memory,0.014639,0.04503048
+Drama,serial killer,0.014368,0.21289278
+Drama,sex,0.014327,0.01917332
+Drama,satire,0.013842,0.00894095
+Drama,revenge,0.013776,0.10290808
+Drama,zombies,0.013432,0.08438711
+Drama,religion,0.013347,0.0339543
+Drama,sports,0.012971,0.02783609
+Drama,twist ending,0.012802,0.05500622
+Drama,existentialism,0.012591,0.0559553
+Drama,chick flick,0.012318,0.00821847
+Drama,disturbing,0.012124,0.02664051
+Drama,philosophy,0.011891,0.01014076
+Drama,nudity (rear),0.011877,0.00954736
+Drama,atmospheric,0.011671,0.01502619
+Drama,australian,0.011605,0.02215333
+Drama,bollywood,0.011177,0.04084709
+Drama,vietnam war,0.010964,0.1018664
+Drama,gay,0.01082,0.02434248
+Drama,relationships,0.010817,0.03327382
+Drama,wine,0.010681,0.0328692
+Drama,surrealism,0.010485,0.00815083
+Drama,underrated,0.010483,0.00826024
+Drama,oscar (best cinematography),0.010475,0.02941579
+Drama,adolescence,0.010446,0.02620624
+Drama,hip hop,0.010408,0.02339643
+Drama,pg,0.009628,0.00753093
+Drama,biopic,0.009499,0.0252955
+Drama,guilty pleasure,0.009306,0.03760108
+Drama,bdsm,0.009266,0.03375042
+Drama,bittersweet,0.009062,0.0278743
+Drama,london,0.009058,0.01956251
+Drama,holocaust,0.008997,0.04768838
+Drama,prison,0.008913,0.00770814
+Drama,mental illness,0.008492,0.0110103
+Drama,working class,0.00845,0.01318659
+Drama,dark,0.008393,0.01142977
+Drama,journalism,0.008318,0.01869826
+Drama,good,0.008214,0.01518043
+Drama,thought-provoking,0.008034,0.00872859
+Drama,slow,0.007976,0.0144789
+Drama,good romantic comedies,0.007884,0.08653837
+Drama,unique,0.007851,0.00913982
+Drama,interesting,0.007815,0.01138642
+Drama,coming of age,0.007768,0.01132825
+Drama,whimsical,0.007576,0.01995528
+Drama,nudity (full frontal),0.007571,0.00719533
+Drama,british,0.007368,0.00815652
+Drama,gambling,0.007307,0.03531898
+Drama,special,0.007272,0.00588515
+Drama,brilliant,0.007254,0.0191271
+Drama,sexuality,0.007214,0.04123601
+Drama,organized crime,0.007187,0.02334286
+Drama,weird,0.007143,0.0121858
+Drama,teen,0.007114,0.01387297
+Drama,comic book,0.007065,0.10011165
+Drama,biographical,0.007054,0.01803962
+Drama,africa,0.006974,0.01605919
+Drama,great movie,0.006917,0.00778332
+Drama,artistic,0.006888,0.03061496
+Drama,abortion,0.006882,0.02923424
+Drama,not funny,0.006731,0.01883372
+Drama,funny,0.006722,0.00370531
+Drama,narrated,0.006654,0.03224202
+Drama,scenic,0.00665,0.01066426
+Drama,depressing,0.006641,0.00499489
+Drama,mystery,0.00662,0.03857565
+Drama,british comedy,0.00656,0.03125256
+Drama,new zealand,0.006537,0.0277687
+Drama,sad,0.006524,0.00752157
+Drama,fun movie,0.006477,0.01254568
+Drama,star trek,0.006414,0.05002987
+Drama,ireland,0.006403,0.01681
+Drama,peter pan,0.006378,0.0134617
+Drama,pg-13,0.006326,0.01506185
+Drama,los angeles,0.006237,0.01946031
+Drama,historical,0.006222,0.02968543
+Drama,aliens,0.006203,0.036276
+Drama,predictable,0.006071,0.0070171
+Drama,puppets,0.005976,0.04015901
+Drama,oscar (best music - original score),0.005935,0.0049257
+Drama,racism,0.005891,0.01324254
+Drama,cool,0.005862,0.02662895
+Drama,hilarious,0.005835,0.00601525
+Drama,courtroom,0.005721,0.01388994
+Drama,waste of time,0.005688,0.00476488
+Drama,immigrants,0.005666,0.02209938
+Drama,psychological,0.005633,0.01500048
+Drama,horses,0.005615,0.01742369
+Drama,black comedy,0.00551,0.05991401
+Drama,bloody,0.005417,0.05005575
+Drama,science,0.005388,0.042025
+Drama,space,0.005341,0.03570033
+Drama,submarine,0.005323,0.0307133
+Drama,oscar (best picture),0.005299,0.02250977
+Drama,girlie movie,0.005242,0.01267157
+Drama,big budget,0.005234,0.05263276
+Drama,interracial romance,0.005203,0.01689897
+Drama,melancholic,0.005185,0.0159423
+Drama,pointless,0.005148,0.02572719
+Drama,death,0.005146,0.01370362
+Drama,cinematography,0.005029,0.03360676
+Drama,imagination,0.004959,0.01320564
+Drama,romantic comedy,0.004946,0.01801496
+Drama,scary,0.004943,0.083452
+Drama,touching,0.004927,0.02274228
+Drama,bizarre,0.00492,0.01921079
+Drama,sad but good,0.004911,0.00945858
+Drama,fairy tales,0.004899,0.00635725
+Drama,violence,0.004898,0.03681527
+Drama,life,0.004825,0.00500182
+Drama,period piece,0.004791,0.00937611
+Drama,black and white,0.004773,0.01220896
+Drama,life & death,0.004765,0.01268903
+Drama,war movie,0.004693,0.04361404
+Drama,oscar (best music - original song),0.00469,0.01992278
+Drama,dreams,0.004662,0.01241474
+Drama,visually appealing,0.004651,0.01275397
+Drama,dreamlike,0.004632,0.01233485
+Drama,adapted from:book,0.004619,0.01166144
+Drama,best war films,0.004607,0.0149632
+Drama,movielens top pick,0.004604,0.01226029
+Drama,sequel,0.004552,0.02340464
+Drama,gangs,0.004524,0.01469362
+Drama,wedding,0.004521,0.04588022
+Drama,football,0.00451,0.01387421
+Drama,psychiatrist,0.004479,0.01006847
+Drama,love,0.004456,0.01370337
+Drama,mockumentary,0.004445,0.01619882
+Drama,new york city,0.004445,0.00862692
+Drama,compassionate,0.004432,0.00809808
+Drama,romantic,0.004425,0.02199609
+Drama,enigmatic,0.004393,0.00987515
+Drama,literature,0.004295,0.01907508
+Drama,kidnapping,0.00424,0.01779046
+Drama,reality tv,0.004188,0.05353664
+Drama,realistic,0.004125,0.01268056
+Drama,excellent,0.004107,0.00763621
+Drama,cute,0.004099,0.02336965
+Drama,heartwarming,0.004096,0.01098124
+Drama,complicated,0.004092,0.03191607
+Drama,zombie,0.004049,0.02023716
+Drama,franchise,0.003974,0.05165671
+Drama,nudity (full frontal - brief),0.003968,0.00522716
+Drama,politics,0.003906,0.02266122
+Drama,teenagers,0.003732,0.00866222
+Drama,switching places,0.003732,0.01658067
+Drama,dance,0.003685,0.01355275
+Drama,australia,0.003658,0.00499489
+Drama,canada,0.003641,0.00538828
+Drama,scotland,0.003624,0.01539449
+Drama,strange,0.003622,0.01130317
+Drama,pretentious,0.003615,0.01606425
+Drama,india,0.003593,0.01908665
+Drama,poker,0.003578,0.03305006
+Drama,tragedy,0.003532,0.00940559
+Drama,terminal illness,0.003526,0.01145219
+Drama,japanese,0.003435,0.02693017
+Drama,books,0.003409,0.0065003
+Drama,very interesting,0.003357,0.00975329
+Drama,oscar (best actress),0.003344,0.01304248
+Drama,dramatic,0.0033,0.00741816
+Drama,classic,0.003292,0.01017765
+Drama,tokyo,0.003286,0.01197269
+Drama,wwii,0.003281,0.01510434
+Drama,disappointing,0.003252,0.0094789
+Drama,exceptional acting,0.00325,0.00730576
+Drama,campy,0.003245,0.01412335
+Drama,art,0.003245,0.01053952
+Drama,funniest movies,0.00324,0.04058466
+Drama,cia,0.00319,0.02488905
+Drama,torture,0.003138,0.01945452
+Drama,martial arts,0.003128,0.05333092
+Drama,based on a play,0.003122,0.02885589
+Drama,road trip,0.003102,0.0371457
+Drama,irreverent,0.003073,0.02063901
+Drama,musicians,0.003073,0.01120043
+Drama,father-son relationship,0.003042,0.02057978
+Drama,rock and roll,0.003016,0.03241361
+Drama,friendship,0.002859,0.01271239
+Drama,80s,0.002826,0.02203419
+Drama,visceral,0.002823,0.02608907
+Drama,christianity,0.002815,0.01195792
+Drama,san francisco,0.002802,0.01021247
+Drama,italy,0.002784,0.0101459
+Drama,bullshit history,0.002779,0.02179815
+Drama,fascism,0.002755,0.01929659
+Drama,feel good movie,0.002753,0.00634089
+Drama,cannibalism,0.002719,0.06521069
+Drama,oscar (best foreign language film),0.002708,0.01150339
+Drama,ridiculous,0.002661,0.02819058
+Drama,hackers,0.002651,0.02462976
+Drama,new york,0.002641,0.00702334
+Drama,college,0.002641,0.03391223
+Drama,political,0.002641,0.02060001
+Drama,pornography,0.002638,0.02057978
+Drama,con men,0.002638,0.02436613
+Drama,obsession,0.002612,0.00803634
+Drama,high school,0.002609,0.09778408
+Drama,brazil,0.002607,0.00846735
+Drama,shark,0.002602,0.02932554
+Drama,suburbia,0.002596,0.01153664
+Drama,nudity,0.002581,0.01146518
+Drama,trains,0.002573,0.0049556
+Drama,sexy,0.002518,0.01964464
+Drama,metaphysics,0.002518,0.00670535
+Drama,spaghetti western,0.0025,0.02310388
+Drama,cute!,0.002497,0.00568069
+Drama,based on book,0.002497,0.0071574
+Drama,mother-son relationship,0.002487,0.0110527
+Drama,fantasy world,0.002484,0.00661481
+Drama,family bonds,0.002482,0.00660948
+Drama,detective,0.002482,0.01658093
+Drama,future,0.002479,0.0700486
+Drama,western,0.002477,0.02288552
+Drama,movie business,0.002477,0.01490195
+Drama,literary adaptation,0.002477,0.01212962
+Drama,satirical,0.002471,0.01098124
+Drama,unlikely friendships,0.002469,0.0109715
+Drama,love story,0.002469,0.0089955
+Drama,brutality,0.002466,0.00656687
+Drama,horror,0.002458,0.04691801
+Drama,hacking,0.002458,0.02284025
+Drama,indians,0.002456,0.00755079
+Drama,teens,0.002456,0.00755753
+Drama,humanity,0.002456,0.00654024
+Drama,masterpiece,0.002451,0.02264053
+Drama,dark hero,0.002451,0.00652693
+Drama,oscar,0.002448,0.00651894
+Drama,shallow,0.002445,0.00752157
+Drama,sentimental,0.002443,0.00890229
+Drama,adventure,0.002443,0.13167191
+Drama,suspense,0.002443,0.02753593
+Drama,great music,0.002432,0.00789896
+Drama,dark comedy,0.002404,0.01067269
+Drama,father daughter relationship,0.002398,0.00873186
+Drama,great soundtrack,0.00237,0.01441292
+Drama,american civil war,0.002359,0.00628193
+Drama,alien,0.002352,0.01727391
+Drama,light,0.002333,0.00757741
+Drama,surprise ending,0.002323,0.05092342
+Drama,based on a tv show,0.002318,0.01483821
+Drama,ethnic conflict,0.002318,0.0075287
+Drama,courtroom drama,0.00231,0.02602889
+Drama,motorcycle,0.00231,0.013327
+Drama,ensemble cast,0.002305,0.03526505
+Drama,prostitution,0.002305,0.00748647
+Drama,amnesia,0.002299,0.01451487
+Drama,dystopia,0.002299,0.0815753
+Drama,clever,0.002292,0.01786428
+Drama,notable soundtrack,0.002281,0.00740852
+Drama,adultery,0.002279,0.00830046
+Drama,culture clash,0.002271,0.01781483
+Drama,love triangles,0.00226,0.00695059
+Drama,wistful,0.00226,0.00824188
+Drama,foreign,0.002242,0.00952385
+Drama,epic,0.002242,0.01758104
+Drama,cynical,0.002224,0.00987695
+Drama,music,0.002221,0.01940411
+Drama,affectionate,0.002221,0.00809009
+Drama,oscar (best supporting actor),0.002221,0.00943465
+Drama,paranoid,0.002216,0.01482249
+Drama,reflective,0.002216,0.00590113
+Drama,factual,0.002208,0.02052081
+Drama,talky,0.002206,0.0058745
+Drama,fairy tale,0.002201,0.04505535
+Drama,witty,0.002201,0.01099746
+Drama,gritty,0.002195,0.02028647
+Drama,nostalgic,0.002195,0.0093242
+Drama,tense,0.002195,0.0071292
+Drama,intimate,0.002195,0.0093242
+Drama,deadpan,0.002193,0.00974378
+Drama,stylized,0.00219,0.034164
+Drama,lyrical,0.002188,0.00797292
+Drama,indie,0.002174,0.00966258
+Drama,oscar (best writing - screenplay written directly for the screen),0.002167,0.00666511
+Drama,espionage,0.002167,0.00938691
+Drama,irish,0.002156,0.00785308
+Drama,german,0.002141,0.00950668
+Drama,addiction,0.002117,0.01955415
+Drama,awful,0.00207,0.00408402
+Drama,pregnancy,0.002055,0.00913642
+Drama,women,0.002052,0.00721689
+Drama,plot holes,0.002026,0.00830922
+Drama,too long,0.002018,0.01582541
+Drama,christmas,0.002008,0.01876795
+Drama,intellectual,0.001974,0.0153983
+Drama,erotic,0.001935,0.00860051
+Drama,berlin,0.001932,0.0138634
+Drama,nonlinear,0.001914,0.00509692
+Drama,child abuse,0.001914,0.00509692
+Drama,sophia coppola,0.001872,0.00681453
+Drama,prejudice,0.001839,0.02071203
+Drama,notable nudity,0.001831,0.00684855
+Drama,watch the credits,0.001805,0.00802238
+Drama,gangsters,0.001792,0.00582029
+Drama,death penalty,0.001784,0.0057943
+Drama,police,0.001781,0.01282138
+Drama,powerful ending,0.001773,0.00575858
+Drama,glbt,0.001771,0.01997475
+Drama,feel-good,0.001768,0.00465899
+Drama,virtual reality,0.001753,0.00466818
+Drama,ballet,0.001745,0.00566763
+Drama,book was better,0.001742,0.01346503
+Drama,bad acting,0.001721,0.01873465
+Drama,heartbreaking,0.001703,0.00723422
+Drama,stupidity,0.001698,0.01912705
+Drama,amazing cinematography,0.001698,0.02584675
+Drama,oscar (best supporting actress),0.001685,0.0044871
+Drama,over the top,0.001672,0.01554106
+Drama,jane austen,0.001669,0.00608754
+Drama,middle east,0.001667,0.01307395
+Drama,medieval,0.001664,0.01305147
+Drama,school,0.001661,0.01012017
+Drama,treasure,0.001659,0.0110822
+Drama,propaganda,0.001659,0.00538831
+Drama,oscar winner,0.001654,0.00652003
+Drama,great cinematography,0.001654,0.01105331
+Drama,lame,0.001651,0.00701333
+Drama,dumb but funny,0.001648,0.02542802
+Drama,intense,0.001646,0.00534609
+Drama,england,0.001641,0.00944897
+Drama,artsy,0.001641,0.01515493
+Drama,idiotic,0.001635,0.00431039
+Drama,great,0.001633,0.00935917
+Drama,no plot,0.001633,0.00724937
+Drama,animal movie,0.001628,0.00501063
+Drama,television,0.001628,0.01513097
+Drama,race,0.001625,0.00527788
+Drama,funny as hell,0.001625,0.0339012
+Drama,marriage,0.001625,0.00527788
+Drama,civil war,0.001625,0.00432732
+Drama,bombs,0.001625,0.00690288
+Drama,moving,0.001625,0.00690288
+Drama,spielberg,0.001622,0.00720715
+Drama,tear jerker,0.001622,0.00526814
+Drama,money,0.001622,0.00427957
+Drama,photography,0.001617,0.01494989
+Drama,horrible,0.001617,0.00524441
+Drama,magic,0.001615,0.00860742
+Drama,plot twist,0.001615,0.01492326
+Drama,suicide attempt,0.001612,0.00715518
+Drama,cancer,0.001609,0.00715518
+Drama,original plot,0.001609,0.00683492
+Romance,romance,0.317686,0.00518004
+Romance,surreal,0.184078,0.05705004
+Romance,zombies,0.146934,0.08438711
+Romance,lesbian,0.125795,0.03418557
+Romance,nudity (topless),0.090099,0.06438517
+Romance,good romantic comedies,0.089501,0.08653837
+Romance,remake,0.089437,0.0729382
+Romance,based on a book,0.086869,0.01398377
+Romance,fairy tale,0.086146,0.04505535
+Romance,chick flick,0.0757,0.00821847
+Romance,fantasy,0.069155,0.01224775
+Romance,quirky,0.066369,0.01987569
+Romance,animation,0.066368,0.07929682
+Romance,soccer,0.064742,0.06504378
+Romance,funny,0.061426,0.00370531
+Romance,girlie movie,0.061149,0.01267157
+Romance,drama,0.057183,0.02645673
+Romance,wedding,0.056882,0.04588022
+Romance,sci-fi,0.05577,0.06226279
+Romance,memory,0.055169,0.04503048
+Romance,overrated,0.051282,0.02921285
+Romance,bollywood,0.050043,0.04084709
+Romance,nudity (full frontal - notable),0.047662,0.08441709
+Romance,comedy,0.044028,0.0067235
+Romance,sexuality,0.042656,0.04123601
+Romance,sex,0.041192,0.01917332
+Romance,japan,0.040549,0.03366174
+Romance,boring,0.04048,0.04109308
+Romance,wine,0.040268,0.0328692
+Romance,surrealism,0.039516,0.00815083
+Romance,nudity (topless - notable),0.037245,0.04465086
+Romance,thriller,0.037117,0.04738709
+Romance,serial killer,0.036906,0.21289278
+Romance,mindfuck,0.035652,0.09639303
+Romance,guilty pleasure,0.035066,0.03760108
+Romance,bdsm,0.03491,0.03375042
+Romance,not funny,0.034347,0.01883372
+Romance,sports,0.034103,0.02783609
+Romance,directorial debut,0.031647,0.04853599
+Romance,psychology,0.029774,0.15268396
+Romance,hip hop,0.029424,0.02339643
+Romance,india,0.027291,0.01908665
+Romance,england,0.025892,0.00944897
+Romance,nudity (full frontal),0.025455,0.00719533
+Romance,relationships,0.025207,0.03327382
+Romance,video game adaptation,0.024916,0.0353186
+Romance,imdb top 250,0.02491,0.01255554
+Romance,gay,0.024873,0.02434248
+Romance,british,0.023929,0.00815652
+Romance,slow,0.02385,0.0144789
+Romance,zombie,0.02377,0.02023716
+Romance,nudity (rear),0.022362,0.00954736
+Romance,coen bros,0.022141,0.02610035
+Romance,fairy tales,0.0214,0.00635725
+Romance,psychological,0.02123,0.01500048
+Romance,san francisco,0.021126,0.01021247
+Romance,queer,0.020888,0.02137029
+Romance,black comedy,0.02076,0.05991401
+Romance,interracial romance,0.01961,0.01689897
+Romance,melancholic,0.019522,0.0159423
+Romance,death,0.01939,0.01370362
+Romance,cinematography,0.018949,0.03360676
+Romance,future,0.018686,0.0700486
+Romance,imagination,0.018686,0.01320564
+Romance,parody,0.018611,0.04925501
+Romance,weird,0.01854,0.0121858
+Romance,sad,0.018502,0.00752157
+Romance,sweet,0.018384,0.02167667
+Romance,pg,0.018366,0.00753093
+Romance,life & death,0.017962,0.01268903
+Romance,amnesia,0.017784,0.01451487
+Romance,london,0.017648,0.01956251
+Romance,bittersweet,0.017521,0.0278743
+Romance,magic,0.017493,0.00860742
+Romance,adapted from:book,0.017334,0.01166144
+Romance,biography,0.017272,0.01299857
+Romance,sequel,0.017151,0.02340464
+Romance,atmospheric,0.017014,0.01502619
+Romance,football,0.016996,0.01387421
+Romance,love,0.016789,0.01370337
+Romance,dreamworks,0.016418,0.01907462
+Romance,pg-13,0.015714,0.01506185
+Romance,thought-provoking,0.015408,0.00872859
+Romance,scenic,0.015249,0.01066426
+Romance,waste of time,0.015231,0.00476488
+Romance,war,0.014705,0.00658478
+Romance,president,0.014437,0.01702239
+Romance,true story,0.014225,0.02933288
+Romance,cute,0.013967,0.02336965
+Romance,interesting,0.013878,0.01138642
+Romance,canada,0.013709,0.00538828
+Romance,romantic,0.013413,0.02199609
+Romance,tragedy,0.01331,0.00940559
+Romance,terminal illness,0.013286,0.01145219
+Romance,oscar (best actress),0.01261,0.01304248
+Romance,brilliant,0.012601,0.0191271
+Romance,tokyo,0.012384,0.01197269
+Romance,satire,0.0123,0.00894095
+Romance,adolescence,0.012272,0.02620624
+Romance,campy,0.012235,0.01412335
+Romance,art,0.012225,0.01053952
+Romance,funniest movies,0.012216,0.04058466
+Romance,touching,0.01214,0.02274228
+Romance,coming of age,0.011714,0.01132825
+Romance,musicians,0.011582,0.01120043
+Romance,father-son relationship,0.01146,0.02057978
+Romance,immigrants,0.010676,0.02209938
+Romance,unique,0.010559,0.00913982
+Romance,italy,0.010493,0.0101459
+Romance,visually appealing,0.010371,0.01275397
+Romance,racism,0.010178,0.01324254
+Romance,college,0.009948,0.03391223
+Romance,obsession,0.009845,0.00803634
+Romance,trains,0.0097,0.0049556
+Romance,violent,0.009507,0.11505133
+Romance,twist ending,0.009507,0.05500622
+Romance,cute!,0.009413,0.00568069
+Romance,fantasy world,0.009362,0.00661481
+Romance,family bonds,0.009352,0.00660948
+Romance,new york city,0.009305,0.00862692
+Romance,romantic comedy,0.0093,0.01801496
+Romance,love story,0.0093,0.0089955
+Romance,sad but good,0.009296,0.00945858
+Romance,time travel,0.009263,0.18191862
+Romance,teens,0.009258,0.00755753
+Romance,bizarre,0.009258,0.01921079
+Romance,indians,0.009254,0.00755079
+Romance,biographical,0.009249,0.01803962
+Romance,great movie,0.009239,0.00778332
+Romance,shallow,0.009216,0.00752157
+Romance,sentimental,0.009207,0.00890229
+Romance,adventure,0.009202,0.13167191
+Romance,good,0.009192,0.01518043
+Romance,dreamlike,0.009183,0.01233485
+Romance,biopic,0.009146,0.0252955
+Romance,family,0.009103,0.04470715
+Romance,adapted from:game,0.008944,0.02371759
+Romance,great soundtrack,0.00893,0.01441292
+Romance,computer game,0.008901,0.01578934
+Romance,american civil war,0.008887,0.00628193
+Romance,notable soundtrack,0.008592,0.00740852
+Romance,wistful,0.008521,0.00824188
+Romance,love triangles,0.008516,0.00695059
+Romance,stupid,0.008423,0.01433658
+Romance,affectionate,0.008371,0.00809009
+Romance,music,0.008366,0.01940411
+Romance,reflective,0.008352,0.00590113
+Romance,religion,0.00831,0.0339543
+Romance,monster,0.008291,0.00801552
+Romance,enigmatic,0.008282,0.00987515
+Romance,lyrical,0.008244,0.00797292
+Romance,aliens,0.008178,0.036276
+Romance,oscar (best writing - screenplay written directly for the screen),0.008169,0.00666511
+Romance,awful,0.007808,0.00408402
+Romance,reality tv,0.007737,0.05353664
+Romance,colourful,0.007732,0.00911368
+Romance,gambling,0.007634,0.03531898
+Romance,christmas,0.007568,0.01876795
+Romance,dramatic,0.007559,0.00741816
+Romance,pointless,0.007516,0.02572719
+Romance,nudity (full frontal - brief),0.007479,0.00522716
+Romance,nudity (topless - brief),0.00746,0.03895957
+Romance,notable nudity,0.007437,0.00684855
+Romance,memory loss,0.007427,0.00943355
+Romance,predictable,0.007394,0.0070171
+Romance,philosophy,0.007305,0.01014076
+Romance,nonlinear,0.007216,0.00509692
+Romance,life,0.00715,0.00500182
+Romance,berlin,0.007052,0.0138634
+Romance,sophia coppola,0.007052,0.00681453
+Romance,oscar (best music - original score),0.007033,0.0049257
+Romance,historical,0.006798,0.02968543
+Romance,passionate,0.006746,0.00796067
+Romance,death penalty,0.006723,0.0057943
+Romance,narrated,0.006596,0.03224202
+Romance,ballet,0.006573,0.00566763
+Romance,period piece,0.006568,0.00937611
+Romance,book was better,0.006563,0.01346503
+Romance,dance,0.006545,0.01355275
+Romance,computer animation,0.006498,0.00843743
+Romance,spoof,0.006423,0.01262661
+Romance,oscar (best animated feature),0.006394,0.00771948
+Romance,amazing cinematography,0.006394,0.02584675
+Romance,new york,0.006376,0.00702334
+Romance,oscar (best supporting actress),0.006347,0.0044871
+Romance,jane austen,0.006291,0.00608754
+Romance,very interesting,0.006282,0.00975329
+Romance,heist,0.006282,0.19063927
+Romance,strange,0.006272,0.01130317
+Romance,school,0.006258,0.01012017
+Romance,oscar winner,0.006235,0.00652003
+Romance,realistic,0.00623,0.01268056
+Romance,very good,0.006216,0.01019806
+Romance,depressing,0.006197,0.00499489
+Romance,very funny,0.006192,0.02079039
+Romance,idiotic,0.00616,0.00431039
+Romance,great,0.006155,0.00935917
+Romance,fun movie,0.006141,0.01254568
+Romance,exceptional acting,0.006122,0.00730576
+Romance,race,0.006122,0.00527788
+Romance,australia,0.006122,0.00499489
+Romance,books,0.006122,0.0065003
+Romance,funny as hell,0.006122,0.0339012
+Romance,marriage,0.006122,0.00527788
+Romance,civil war,0.006122,0.00432732
+Romance,kids,0.006099,0.00368014
+Romance,horrible,0.006094,0.00524441
+Romance,special,0.006085,0.00588515
+Romance,movie business,0.00608,0.01490195
+Romance,mental illness,0.00608,0.0110103
+Romance,disney,0.006066,0.0230132
+Romance,disappointing,0.006066,0.0094789
+Romance,cartoon,0.006061,0.02208251
+Horror,zombies,1.7684,0.08438711
+Horror,vampires,1.221591,0.12593725
+Horror,vampire,0.675692,0.07791766
+Horror,serial killer,0.559438,0.21289278
+Horror,psychology,0.543411,0.15268396
+Horror,parody,0.504193,0.04925501
+Horror,zombie,0.320627,0.02023716
+Horror,gothic,0.273001,0.02656214
+Horror,twist ending,0.266526,0.05500622
+Horror,werewolves,0.25927,0.07589228
+Horror,comic book,0.258474,0.10011165
+Horror,violent,0.237295,0.11505133
+Horror,nudity (topless),0.220924,0.06438517
+Horror,franchise,0.213076,0.05165671
+Horror,sequel,0.210321,0.02340464
+Horror,action,0.201064,0.12289124
+Horror,cannibalism,0.189129,0.06521069
+Horror,stupid,0.178718,0.01433658
+Horror,comedy,0.144552,0.0067235
+Horror,horror,0.143281,0.04691801
+Horror,surprise ending,0.141923,0.05092342
+Horror,england,0.140128,0.00944897
+Horror,pointless,0.137961,0.02572719
+Horror,atmospheric,0.134872,0.01502619
+Horror,hilarious,0.132859,0.00601525
+Horror,boring,0.131859,0.04109308
+Horror,interesting,0.131552,0.01138642
+Horror,thriller,0.131295,0.04738709
+Horror,not funny,0.127039,0.01883372
+Horror,slasher,0.122898,0.04237843
+Horror,remake,0.116718,0.0729382
+Horror,nudity (rear),0.110962,0.00954736
+Horror,alien,0.092577,0.01727391
+Horror,comics,0.09159,0.02666042
+Horror,mental hospital,0.083821,0.03525625
+Horror,marvel,0.083231,0.01552649
+Horror,british,0.082833,0.00815652
+Horror,alien invasion,0.081308,0.01919955
+Horror,inspirational,0.078769,0.01071045
+Horror,video game adaptation,0.075833,0.0353186
+Horror,mindfuck,0.074769,0.09639303
+Horror,monster,0.074654,0.00801552
+Horror,slapstick,0.074513,0.031349
+Horror,corny,0.074282,0.01852426
+Horror,virus,0.071256,0.02074163
+Horror,london,0.070769,0.01956251
+Horror,big budget,0.070141,0.05263276
+Horror,dark,0.070038,0.01142977
+Horror,island,0.070013,0.01161134
+Horror,author:alan moore,0.069987,0.02037297
+Horror,antarctica,0.068782,0.01481369
+Horror,unintentionally funny,0.066705,0.0194176
+Horror,sappy,0.066038,0.01922203
+Horror,adapted from:game,0.06359,0.02371759
+Horror,claustrophobic,0.063487,0.01848246
+Horror,heroine in tight suit,0.063333,0.0411534
+Horror,murder,0.062103,0.05198492
+Horror,mystery,0.059808,0.03857565
+Horror,gore,0.055769,0.02345653
+Horror,gory,0.054513,0.01586587
+Horror,very good,0.054269,0.01019806
+Horror,underrated,0.054269,0.00826024
+Horror,nudity (topless - brief),0.053179,0.03895957
+Horror,nudity (topless - notable),0.052962,0.04465086
+Horror,clowns,0.049885,0.21190786
+Horror,dynamic cgi action,0.048667,0.0364245
+Horror,great movie,0.048154,0.00778332
+Horror,gay,0.047538,0.02434248
+Horror,directorial debut,0.046897,0.04853599
+Horror,waste of time,0.046654,0.00476488
+Horror,spoof,0.045654,0.01262661
+Horror,creepy,0.045603,0.01326952
+Horror,monsters,0.044615,0.01306271
+Horror,disappointing,0.044038,0.0094789
+Horror,idiotic,0.044038,0.00431039
+Horror,hannibal lecter,0.043974,0.09870425
+Horror,predictable,0.043423,0.0070171
+Horror,mummy,0.043179,0.00716493
+Mystery,time travel,1.198807,0.18191862
+Mystery,philip k. dick,0.497734,0.26106537
+Mystery,serial killer,0.354694,0.21289278
+Mystery,psychology,0.324971,0.15268396
+Mystery,drama,0.295999,0.02645673
+Mystery,surreal,0.275094,0.05705004
+Mystery,future,0.214495,0.0700486
+Mystery,mystery,0.213275,0.03857565
+Mystery,based on a book,0.200209,0.01398377
+Mystery,hannibal lecter,0.198572,0.09870425
+Mystery,nudity (full frontal - notable),0.192533,0.08441709
+Mystery,twist ending,0.179333,0.05500622
+Mystery,mindfuck,0.177105,0.09639303
+Mystery,sci-fi,0.153142,0.06226279
+Mystery,remake,0.143704,0.0729382
+Mystery,surprise ending,0.13741,0.05092342
+Mystery,disturbing,0.13582,0.02664051
+Mystery,thriller,0.133552,0.04738709
+Mystery,very good,0.122505,0.01019806
+Mystery,oscar (best actor),0.114818,0.07133798
+Mystery,psychological,0.101572,0.01500048
+Mystery,science,0.097134,0.042025
+Mystery,death,0.092752,0.01370362
+Mystery,cinematography,0.090657,0.03360676
+Mystery,sad but good,0.088572,0.00945858
+Mystery,quirky,0.086296,0.01987569
+Mystery,life & death,0.085933,0.01268903
+Mystery,murder,0.083247,0.05198492
+Mystery,action,0.080895,0.12289124
+Mystery,imdb top 250,0.079448,0.01255554
+Mystery,great movie,0.077295,0.00778332
+Mystery,kidnapping,0.076457,0.01779046
+Mystery,nudity (topless - brief),0.075781,0.03895957
+Mystery,complicated,0.073762,0.03191607
+Mystery,aliens,0.072734,0.036276
+Mystery,mental illness,0.069067,0.0110103
+Mystery,boring,0.066819,0.04109308
+Mystery,tragedy,0.063677,0.00940559
+Mystery,dark,0.062143,0.01142977
+Mystery,comics,0.061638,0.02666042
+Mystery,interesting,0.0592,0.01138642
+Mystery,based on a play,0.056314,0.02885589
+Mystery,easily confused with other movie(s) (title),0.05541,0.05833852
+Mystery,period piece,0.05499,0.00937611
+Mystery,atmospheric,0.054352,0.01502619
+Mystery,stupid,0.051705,0.01433658
+Mystery,australian,0.05121,0.02215333
+Mystery,80s,0.050943,0.02203419
+Mystery,schizophrenia,0.050933,0.03183619
+Mystery,directorial debut,0.050467,0.04853599
+Mystery,corny,0.049981,0.01852426
+Mystery,london,0.047619,0.01956251
+Mystery,political,0.047619,0.02060001
+Mystery,pornography,0.047562,0.02057978
+Mystery,author:alan moore,0.047095,0.02037297
+Mystery,imaginary friend,0.045476,0.02843236
+Mystery,blindness,0.045219,0.0231678
+Mystery,based on book,0.045038,0.0071574
+Mystery,unintentionally funny,0.044886,0.0194176
+Mystery,detective,0.044724,0.01658093
+Mystery,brutality,0.044486,0.00656687
+Mystery,family,0.0444,0.04470715
+Mystery,excellent,0.044371,0.00763621
+Mystery,crime,0.044314,0.07215771
+Mystery,bizarre,0.044286,0.01921079
+Mystery,humanity,0.044257,0.00654024
+Mystery,dark hero,0.044181,0.00652693
+Mystery,oscar,0.044152,0.00651894
+Mystery,violence,0.044114,0.03681527
+Mystery,literary adaptation,0.043762,0.01212962
+Mystery,claustrophobic,0.042724,0.01848246
+Mystery,alien,0.04239,0.01727391
+Mystery,thought-provoking,0.042067,0.00872859
+Mystery,prostitution,0.041543,0.00748647
+Mystery,clever,0.041295,0.01786428
+Mystery,adultery,0.041095,0.00830046
+Mystery,paranoid,0.039981,0.01482249
+Mystery,witty,0.039695,0.01099746
+Mystery,nudity (rear),0.039019,0.00954736
+Mystery,gothic,0.037562,0.02656214
+Mystery,teen,0.037429,0.01387297
+Mystery,gory,0.036676,0.01586587
+Mystery,horror,0.036562,0.04691801
+Mystery,pg,0.036305,0.00753093
+Mystery,pg-13,0.036305,0.01506185
+Mystery,nudity (full frontal - brief),0.035771,0.00522716
+Mystery,nudity (topless - notable),0.035619,0.04465086
+Mystery,nudity (topless),0.035619,0.06438517
+Mystery,intellectual,0.035581,0.0153983
+Mystery,strange,0.035314,0.01130317
+Mystery,nonlinear,0.034524,0.00509692
+Mystery,child abuse,0.034495,0.00509692
+Mystery,dystopia,0.031562,0.0815753
+Mystery,comic book,0.031552,0.10011165
+Mystery,waste of time,0.0314,0.00476488
+Mystery,bad acting,0.031048,0.01873465
+Mystery,creepy,0.030686,0.01326952
+Mystery,good,0.030162,0.01518043
+Mystery,treasure,0.029886,0.0110822
+Mystery,great cinematography,0.029829,0.01105331
+Mystery,underrated,0.02981,0.00826024
+Mystery,dramatic,0.029676,0.00741816
+Mystery,artsy,0.029581,0.01515493
+Mystery,exceptional acting,0.029286,0.00730576
+Mystery,psychiatrist,0.029076,0.01006847
+Animation,pixar,2.935178,0.20466055
+Animation,disney,1.481459,0.0230132
+Animation,animation,1.333098,0.07929682
+Animation,fairy tale,0.863934,0.04505535
+Animation,computer animation,0.478689,0.00843743
+Animation,redemption,0.474246,0.01101864
+Animation,dreamworks,0.466524,0.01907462
+Animation,disney animated feature,0.456556,0.00473804
+Animation,based on a book,0.401591,0.01398377
+Animation,funny,0.383754,0.00370531
+Animation,cartoon,0.366902,0.02208251
+Animation,talking animals,0.311443,0.01874827
+Animation,philosophy,0.281033,0.01014076
+Animation,animated,0.26923,0.01877849
+Animation,imdb top 250,0.249837,0.01255554
+Animation,overrated,0.242279,0.02921285
+Animation,puppets,0.225852,0.04015901
+Animation,fun,0.213869,0.01629864
+Animation,satire,0.213197,0.00894095
+Animation,ocean,0.209869,0.01707975
+Animation,video game adaptation,0.205262,0.0353186
+Animation,surreal,0.203984,0.05705004
+Animation,sci-fi,0.185229,0.06226279
+Animation,pirates,0.181311,0.0885131
+Animation,dreams,0.176213,0.01241474
+Animation,weird,0.170902,0.0121858
+Animation,cgi,0.158771,0.00400775
+Animation,kids,0.153934,0.00368014
+Animation,politics,0.147623,0.02266122
+Animation,fish,0.137918,0.00369511
+Animation,drugs,0.136148,0.05411633
+Animation,anime,0.128804,0.28954205
+Animation,oscar (best animated feature),0.12823,0.00771948
+Animation,oscar winner,0.125082,0.00652003
+Animation,fairy tales,0.121885,0.00635725
+Animation,irreverent,0.116098,0.02063901
+Animation,life,0.110574,0.00500182
+Animation,feel good movie,0.105361,0.00634089
+Animation,parody,0.099738,0.04925501
+Animation,comedy,0.097557,0.0067235
+Animation,metaphysics,0.095197,0.00670535
+Animation,cute!,0.094393,0.00568069
+Animation,funny as hell,0.093148,0.0339012
+Animation,children,0.093115,0.30243077
+Animation,awful,0.092197,0.00408402
+Animation,pixar animation,0.090852,0.00739343
+Animation,peter pan,0.090525,0.0134617
+Animation,treasure hunt,0.087984,0.19778165
+Animation,based on a tv show,0.086918,0.01483821
+Animation,talky,0.083377,0.0058745
+Animation,oscar (best music - original score),0.081852,0.0049257
+Animation,cute,0.077557,0.02336965
+Animation,aliens,0.074475,0.036276
+Animation,hilarious,0.069115,0.00601525
+Animation,very good,0.063,0.01019806
+Animation,romance,0.062377,0.00518004
+Animation,waste of time,0.062213,0.00476488
+Animation,very funny,0.062131,0.02079039
+Animation,swashbuckler,0.061557,0.02157032
+Animation,quirky,0.061393,0.01987569
+Animation,memory loss,0.060836,0.00943355
+Children,pixar,2.699447,0.20466055
+Children,disney,1.362461,0.0230132
+Children,animation,1.226001,0.07929682
+Children,fairy tale,0.794553,0.04505535
+Children,magic,0.519358,0.00860742
+Children,based on a book,0.44009,0.01398377
+Children,redemption,0.436164,0.01101864
+Children,dreamworks,0.429044,0.01907462
+Children,disney animated feature,0.41988,0.00473804
+Children,cartoon,0.337417,0.02208251
+Children,harry potter,0.289552,0.77106684
+Children,talking animals,0.286432,0.01874827
+Children,funny,0.266865,0.00370531
+Children,animated,0.247597,0.01877849
+Children,imdb top 250,0.229746,0.01255554
+Children,fun,0.196687,0.01629864
+Children,ocean,0.193014,0.01707975
+Children,espionage,0.18782,0.00938691
+Children,pirates,0.166746,0.0885131
+Children,overrated,0.166582,0.02921285
+Children,peter pan,0.163881,0.0134617
+Children,based on a tv show,0.163164,0.01483821
+Children,computer animation,0.148761,0.00843743
+Children,witch,0.145388,0.38716316
+Children,kids,0.141567,0.00368014
+Children,time travel,0.141105,0.18191862
+Children,oscar (best animated feature),0.11791,0.00771948
+Children,oscar winner,0.115044,0.00652003
+Children,satire,0.113478,0.00894095
+Children,fairy tales,0.112089,0.00635725
+Children,fantasy,0.102448,0.01224775
+Children,unique,0.102179,0.00913982
+Children,feel good movie,0.096896,0.00634089
+Children,parody,0.091731,0.04925501
+Children,franchise,0.090985,0.05165671
+Children,comedy,0.089716,0.0067235
+Children,surreal,0.088672,0.05705004
+Children,cute!,0.086821,0.00568069
+Children,funny as hell,0.085672,0.0339012
+Children,children,0.085627,0.30243077
+Children,awful,0.084776,0.00408402
+Children,weird,0.084373,0.0121858
+Children,pixar animation,0.083552,0.00739343
+Children,adapted from:book,0.083239,0.01166144
+Children,treasure hunt,0.080925,0.19778165
+Children,oscar (best music - original score),0.075284,0.0049257
+Children,cute,0.071313,0.02336965
+Children,aliens,0.068493,0.036276
+Children,video games,0.068403,0.01828392
+Children,religion,0.067284,0.0339543
+Children,whimsical,0.063955,0.01995528
+Children,feel-good,0.061493,0.00465899
+Children,cgi,0.061194,0.00400775
+Children,very good,0.05794,0.01019806
+Children,romance,0.057373,0.00518004
+Children,classic,0.057224,0.01017765
+Children,very funny,0.057134,0.02079039
+Children,animal movie,0.056612,0.00501063
+Children,swashbuckler,0.056612,0.02157032
+Children,quirky,0.056463,0.01987569
+Children,spying,0.056448,0.03418873
+Children,fish,0.056448,0.00369511
+Children,money,0.056418,0.00427957
+Children,wizards,0.055955,0.14900621
+Children,drugs,0.05594,0.05411633
+Children,sequel,0.05594,0.02340464
+Children,memory loss,0.05594,0.00943355
+War,war,2.995001,0.00658478
+War,world war ii,2.697797,0.03426741
+War,genocide,2.491638,0.08944792
+War,true story,1.759932,0.02933288
+War,history,1.359432,0.10054952
+War,vietnam war,1.083136,0.1018664
+War,wwii,0.848114,0.01510434
+War,big budget,0.517182,0.05263276
+War,africa,0.486682,0.01605919
+War,war movie,0.463613,0.04361404
+War,best war films,0.455204,0.0149632
+War,historical,0.436364,0.02968543
+War,oscar (best cinematography),0.432387,0.02941579
+War,journalism,0.325614,0.01869826
+War,documentary,0.325364,0.0061621
+War,racism,0.315227,0.01324254
+War,iraq war,0.297364,0.96581672
+War,based on a book,0.292023,0.01398377
+War,bullshit history,0.274591,0.02179815
+War,disturbing,0.268955,0.02664051
+War,american civil war,0.233,0.00628193
+War,ethnic conflict,0.229023,0.0075287
+War,movielens top pick,0.224409,0.01226029
+War,epic,0.221477,0.01758104
+War,cross dressing,0.218477,0.01621655
+War,compassionate,0.218295,0.00809808
+War,factual,0.21825,0.02052081
+War,imdb top 250,0.217568,0.01255554
+War,holocaust,0.211295,0.04768838
+War,too long,0.199341,0.01582541
+War,nudity (rear),0.195727,0.00954736
+War,nudity (topless - notable),0.195295,0.04465086
+War,nudity (topless),0.195182,0.06438517
+War,pg-13,0.187636,0.01506185
+War,drama,0.17625,0.02645673
+War,oscar (best supporting actress),0.166432,0.0044871
+War,medieval,0.164455,0.01305147
+War,very good,0.162955,0.01019806
+War,classic,0.162659,0.01017765
+War,depressing,0.162477,0.00499489
+War,overrated,0.1605,0.02921285
+War,civil war,0.160455,0.00432732
+War,tear jerker,0.160227,0.00526814
+War,prison,0.160182,0.00770814
+Adventure,comic book,0.294068,0.10011165
+Adventure,pixar,0.222119,0.20466055
+Adventure,super-hero,0.184158,0.09970639
+Adventure,sci-fi,0.17076,0.06226279
+Adventure,animation,0.150056,0.07929682
+Adventure,video game adaptation,0.132262,0.0353186
+Adventure,action,0.123867,0.12289124
+Adventure,superhero,0.11815,0.02831198
+Adventure,fairy tale,0.116152,0.04505535
+Adventure,adventure,0.115308,0.13167191
+Adventure,pirates,0.113844,0.0885131
+Adventure,disney,0.094035,0.0230132
+Adventure,time travel,0.091486,0.18191862
+Adventure,soccer,0.087291,0.06504378
+Adventure,magic,0.084616,0.00860742
+Adventure,based on a book,0.074681,0.01398377
+Adventure,vampires,0.067632,0.12593725
+Adventure,bond,0.064811,0.11784153
+Adventure,funny,0.064508,0.00370531
+Adventure,history,0.062608,0.10054952
+Adventure,robots,0.059833,0.03195879
+Adventure,dynamic cgi action,0.055374,0.0364245
+Adventure,remake,0.054597,0.0729382
+Adventure,wine,0.054285,0.0328692
+Adventure,big budget,0.053208,0.05263276
+Adventure,computer animation,0.051375,0.00843743
+Adventure,james bond,0.050967,0.07823237
+Adventure,based on a tv show,0.049475,0.01483821
+Adventure,overrated,0.048983,0.02921285
+Adventure,boring,0.045658,0.04109308
+Adventure,franchise,0.045107,0.05165671
+Adventure,redemption,0.042514,0.01101864
+Adventure,harry potter,0.042336,0.77106684
+Adventure,war,0.039028,0.00658478
+Adventure,sports,0.037576,0.02783609
+Adventure,murder,0.037542,0.05198492
+Adventure,violence,0.037381,0.03681527
+Adventure,road trip,0.036033,0.0371457
+Adventure,dreamworks,0.035671,0.01907462
+Adventure,very good,0.035593,0.01019806
+Adventure,future,0.034703,0.0700486
+Adventure,futuristic,0.034498,0.03388301
+Adventure,sci fi,0.034044,0.05226656
+Adventure,imdb top 250,0.033588,0.01255554
+Adventure,artificial intelligence,0.032956,0.05058511
+Adventure,sequel,0.03271,0.02340464
+Adventure,fun,0.032648,0.01629864
+Adventure,nudity (topless),0.032145,0.06438517
+Adventure,dinosaurs,0.031761,0.01580068
+Adventure,mountain climbing,0.03086,0.10023104
+Adventure,puppets,0.030364,0.04015901
+Adventure,satire,0.028671,0.00894095
+Adventure,ocean,0.028219,0.01707975
+Adventure,espionage,0.027452,0.00938691
+Adventure,animated,0.027379,0.01877849
+Adventure,swashbuckler,0.027163,0.02157032
+Adventure,submarine,0.027045,0.0307133
+Adventure,talking animals,0.026816,0.01874827
+Adventure,survival,0.02662,0.08645983
+Adventure,scenic,0.02647,0.01066426
+Adventure,unique,0.02566,0.00913982
+Adventure,guilty pleasure,0.02566,0.03760108
+Adventure,comedy,0.024755,0.0067235
+Adventure,adapted from:comic,0.02452,0.03784386
+Adventure,cartoon,0.024139,0.02208251
+Adventure,adapted from:game,0.024112,0.02371759
+Adventure,dragons,0.024062,0.03713127
+Adventure,heroine in tight suit,0.024022,0.0411534
+Adventure,peter pan,0.023956,0.0134617
+Adventure,london,0.023799,0.01956251
+Adventure,alter ego,0.023608,0.0181138
+Adventure,football,0.022916,0.01387421
+Adventure,historical,0.022442,0.02968543
+Adventure,oscar (best cinematography),0.02224,0.02941579
+Adventure,pg,0.021632,0.00753093
+Adventure,nudity (rear),0.021358,0.00954736
+Adventure,witch,0.021257,0.38716316
+Adventure,predictable,0.020776,0.0070171
+Adventure,gothic,0.020592,0.02656214
+Adventure,new york,0.020391,0.00702334
+Adventure,new york city,0.020256,0.00862692
+Adventure,brilliant,0.019883,0.0191271
+Adventure,politics,0.01985,0.02266122
+Adventure,australia,0.018592,0.00499489
+Adventure,fish,0.018542,0.00369511
+Adventure,star wars,0.018134,0.02799344
+Adventure,melancholic,0.0181,0.0159423
+Adventure,anime,0.017318,0.28954205
+Adventure,oscar (best animated feature),0.01724,0.00771948
+Adventure,super hero,0.016916,0.01298853
+Adventure,space,0.016553,0.03570033
+Adventure,fairy tales,0.016386,0.00635725
+Adventure,irreverent,0.015609,0.02063901
+Adventure,god,0.015263,0.02019025
+Adventure,fantasy,0.014978,0.01224775
+Adventure,torture,0.014788,0.01945452
+Adventure,steampunk,0.014709,0.02270407
+Adventure,post apocalyptic,0.014687,0.02267035
+Adventure,relationships,0.014592,0.03327382
+Adventure,atmospheric,0.014346,0.01502619
+Adventure,feel good movie,0.014168,0.00634089
+Adventure,werewolves,0.014156,0.07589228
+Adventure,bullshit history,0.014123,0.02179815
+Adventure,ghosts,0.013743,0.02121594
+Adventure,buddy movie,0.013547,0.02477356
+Adventure,ridiculous,0.013525,0.02819058
+Adventure,parody,0.013408,0.04925501
+Adventure,mutants,0.013302,0.02432352
+Adventure,obsession,0.013274,0.00803634
+Adventure,video game,0.012693,0.02830894
+Adventure,cute!,0.012693,0.00568069
+Adventure,not funny,0.012676,0.01883372
+Adventure,aviation,0.012654,0.02313318
+Adventure,based on a video game,0.012615,0.02813355
+Adventure,sexy,0.012587,0.01964464
+Adventure,exciting,0.012514,0.02790619
+Adventure,comic book adaption,0.012497,0.02285357
+Adventure,teens,0.01248,0.00755753
+Adventure,indians,0.012475,0.00755079
+Adventure,great movie,0.012458,0.00778332
+Adventure,graphic novel,0.012453,0.01922428
+Adventure,science fiction,0.012453,0.02277368
+Adventure,disturbing,0.01243,0.02664051
+Adventure,shallow,0.012425,0.00752157
+Adventure,cgi,0.012397,0.00400775
+Adventure,interesting,0.012385,0.01138642
+Adventure,disney animated feature,0.012212,0.00473804
+Adventure,computer game,0.012006,0.01578934
+Adventure,saturn award (best special effects),0.011883,0.02172713
+Adventure,book was better,0.011855,0.01346503
+Adventure,treasure hunt,0.011832,0.19778165
+Adventure,motorcycle,0.011737,0.013327
+Adventure,adapted from:book,0.011687,0.01166144
+Adventure,dystopia,0.011687,0.0815753
+Adventure,culture clash,0.011542,0.01781483
+Adventure,epic,0.011391,0.01758104
+Adventure,kick-butt women,0.011391,0.02540204
+Adventure,horses,0.011291,0.01742369
+Adventure,zombies,0.011173,0.08438711
+Adventure,enigmatic,0.011151,0.00987515
+Adventure,plot holes,0.010291,0.00830922
+Adventure,too long,0.010251,0.01582541
+Adventure,india,0.010078,0.01908665
+Adventure,nudity (topless - brief),0.010061,0.03895957
+Adventure,notable nudity,0.010017,0.00684855
+Adventure,video games,0.01,0.01828392
+Adventure,alternate universe,0.009425,0.01723737
+Adventure,thriller,0.009425,0.04738709
+Adventure,hilarious,0.009291,0.00601525
+Adventure,series,0.008469,0.0154878
+Adventure,middle east,0.008469,0.01307395
+Adventure,monsters,0.008458,0.01306271
+Adventure,medieval,0.008458,0.01305147
+Adventure,lesbian,0.008441,0.03418557
+Adventure,treasure,0.008425,0.0110822
+Adventure,oscar winner,0.008408,0.00652003
+Adventure,romance,0.008385,0.00518004
+Adventure,classic,0.008369,0.01017765
+Adventure,waste of time,0.008363,0.00476488
+Adventure,very funny,0.008352,0.02079039
+Adventure,chick flick,0.008352,0.00821847
+Adventure,nuclear,0.008302,0.01517091
+Adventure,great,0.008302,0.00935917
+Adventure,animal movie,0.008274,0.00501063
+Adventure,england,0.008274,0.00944897
+Adventure,marvel,0.008257,0.01552649
+Adventure,amazing cinematography,0.008251,0.02584675
+Adventure,funny as hell,0.008251,0.0339012
+Adventure,quirky,0.008251,0.01987569
+Adventure,spying,0.008251,0.03418873
+Adventure,sex,0.008246,0.01917332
+Adventure,kids,0.008223,0.00368014
+Adventure,touching,0.008184,0.02274228
+Adventure,special effects,0.008184,0.01256367
+Adventure,true story,0.008184,0.02933288
+Adventure,wizards,0.008179,0.14900621
+Adventure,memory loss,0.008179,0.00943355
+Adventure,drugs,0.008179,0.05411633
+Adventure,transformation,0.008173,0.01494456
+Crime,heist,0.226434,0.19063927
+Crime,crime,0.214994,0.07215771
+Crime,philip k. dick,0.207056,0.26106537
+Crime,serial killer,0.197596,0.21289278
+Crime,tarantino,0.14977,0.3211704
+Crime,drama,0.141678,0.02645673
+Crime,nudity (topless),0.134547,0.06438517
+Crime,twist ending,0.134241,0.05500622
+Crime,true story,0.129117,0.02933288
+Crime,oscar (best actor),0.116348,0.07133798
+Crime,action,0.104398,0.12289124
+Crime,comic book,0.104316,0.10011165
+Crime,violent,0.094962,0.11505133
+Crime,future,0.089231,0.0700486
+Crime,based on a book,0.083291,0.01398377
+Crime,hannibal lecter,0.082597,0.09870425
+Crime,psychology,0.081087,0.15268396
+Crime,nudity (topless - brief),0.077932,0.03895957
+Crime,nudity (full frontal - notable),0.075764,0.08441709
+Crime,motorcycle,0.07423,0.013327
+Crime,murder,0.07077,0.05198492
+Crime,black comedy,0.066596,0.05991401
+Crime,nudity (topless - notable),0.064062,0.04465086
+Crime,very good,0.063335,0.01019806
+Crime,drugs,0.062739,0.05411633
+Crime,journalism,0.062398,0.01869826
+Crime,overrated,0.061795,0.02921285
+Crime,remake,0.060448,0.0729382
+Crime,thriller,0.055559,0.04738709
+Crime,organized crime,0.05392,0.02334286
+Crime,revenge,0.051838,0.10290808
+Crime,police,0.048951,0.01282138
+Crime,fun movie,0.048584,0.01254568
+Crime,superhero,0.048018,0.02831198
+Crime,great movie,0.046956,0.00778332
+Crime,bad acting,0.04667,0.01873465
+Crime,boring,0.045863,0.04109308
+Crime,oscar (best cinematography),0.045727,0.02941579
+Crime,directorial debut,0.042205,0.04853599
+Crime,las vegas,0.041826,0.05152305
+Crime,japan,0.041081,0.03366174
+Crime,caper,0.040764,0.05022352
+Crime,funny,0.04064,0.00370531
+Crime,surprise ending,0.039726,0.05092342
+Crime,time travel,0.039665,0.18191862
+Crime,gambling,0.039633,0.03531898
+Crime,ensemble cast,0.039566,0.03526505
+Crime,dc comics,0.039521,0.04895595
+Crime,family,0.039099,0.04470715
+Crime,blood,0.038261,0.0471478
+Crime,cinematography,0.037715,0.03360676
+Crime,interesting,0.03713,0.01138642
+Crime,violence,0.036839,0.03681527
+Crime,martial arts,0.036385,0.05333092
+Crime,based on book,0.036193,0.0071574
+Crime,ireland,0.035832,0.01681
+Crime,not funny,0.035764,0.01883372
+Crime,based on a tv show,0.035267,0.01483821
+Crime,dark,0.034981,0.01142977
+Crime,gangs,0.033944,0.01469362
+Crime,new york city,0.033348,0.00862692
+Crime,pg-13,0.033131,0.01506185
+Crime,imdb top 250,0.033044,0.01255554
+Crime,surreal,0.032839,0.05705004
+Crime,kidnapping,0.031807,0.01779046
+Crime,hilarious,0.031652,0.00601525
+Crime,mystery,0.030844,0.03857565
+Crime,christmas,0.030689,0.01876795
+Crime,biography,0.02918,0.01299857
+Crime,poker,0.026832,0.03305006
+Crime,super-hero,0.025888,0.09970639
+Crime,comics,0.025639,0.02666042
+Crime,cool,0.025454,0.02662895
+Crime,cia,0.023932,0.02488905
+Crime,torture,0.023534,0.01945452
+Crime,easily confused with other movie(s) (title),0.02305,0.05833852
+Crime,80s,0.021193,0.02203419
+Crime,visceral,0.02118,0.02608907
+Crime,mindfuck,0.020925,0.09639303
+Crime,corny,0.020789,0.01852426
+Crime,fascism,0.020658,0.01929659
+Crime,feel good movie,0.02064,0.00634089
+Crime,hackers,0.019882,0.02462976
+Crime,london,0.019807,0.01956251
+Crime,new york,0.019807,0.00702334
+Crime,pornography,0.019789,0.02057978
+Crime,con men,0.019783,0.02436613
+Crime,author:alan moore,0.01959,0.02037297
+Crime,brazil,0.019547,0.00846735
+Crime,blindness,0.018807,0.0231678
+Crime,great soundtrack,0.018733,0.01441292
+Crime,los angeles,0.018714,0.01946031
+Crime,unintentionally funny,0.018671,0.0194176
+Crime,detective,0.018602,0.01658093
+Crime,bad sequel,0.018571,0.01930745
+Crime,brutality,0.018503,0.00656687
+Crime,atmospheric,0.018497,0.01502619
+Crime,excellent,0.01846,0.00763621
+Crime,hacking,0.018441,0.02284025
+Crime,humanity,0.01841,0.00654024
+Crime,dark hero,0.018379,0.00652693
+Crime,oscar,0.018366,0.00651894
+Crime,1970s,0.018342,0.01086757
+Crime,marvel,0.018304,0.01552649
+Crime,good,0.018292,0.01518043
+Crime,biopic,0.018205,0.0252955
+Crime,literary adaptation,0.018205,0.01212962
+Crime,father daughter relationship,0.017981,0.00873186
+Crime,sci-fi,0.017963,0.06226279
+Crime,not as good as the first,0.017776,0.01848246
+Crime,claustrophobic,0.01777,0.01848246
+Crime,heroine in tight suit,0.017727,0.0411534
+Crime,thought-provoking,0.017497,0.00872859
+Crime,light,0.017497,0.00757741
+Crime,casino,0.01695,0.02088031
+Crime,paranoid,0.016634,0.01482249
+Crime,sexualized violence,0.016547,0.02037701
+Crime,basketball,0.016503,0.00977626
+Crime,tense,0.016466,0.0071292
+Crime,gritty,0.016466,0.02028647
+Crime,stylized,0.016422,0.034164
+Crime,prison,0.016366,0.00770814
+Crime,espionage,0.016255,0.00938691
+Crime,irish,0.016161,0.00785308
+Crime,lesbian,0.015975,0.03418557
+Crime,addiction,0.01587,0.01955415
+Crime,gothic,0.015627,0.02656214
+Crime,cross dressing,0.015503,0.01621655
+Crime,africa,0.015354,0.01605919
+Crime,gory,0.015261,0.01586587
+Crime,horror,0.015205,0.04691801
+Crime,british comedy,0.015137,0.03125256
+Crime,nudity (rear),0.014888,0.00954736
+Crime,nudity (full frontal - brief),0.014882,0.00522716
+Crime,underrated,0.01472,0.00826024
+Crime,religion,0.014522,0.0339543
+Crime,whimsical,0.013801,0.01995528
+Crime,notable nudity,0.013733,0.00684855
+Crime,gangsters,0.013441,0.00582029
+Crime,powerful ending,0.013304,0.00575858
+Crime,feel-good,0.013267,0.00465899
+Crime,dystopia,0.01313,0.0815753
+Crime,waste of time,0.013062,0.00476488
+Crime,creepy,0.012764,0.01326952
+Crime,war,0.012702,0.00658478
+Crime,very interesting,0.012677,0.00975329
+Crime,oscar (best actress),0.012547,0.01304248
+Crime,over the top,0.01254,0.01554106
+Crime,plot holes,0.012472,0.00830922
+Crime,great cinematography,0.01241,0.01105331
+Crime,robbery,0.012398,0.01288962
+Crime,witty,0.012348,0.01099746
+Crime,intense,0.012348,0.00534609
+Crime,disappointing,0.012329,0.0094789
+Crime,british,0.012242,0.00815652
+Crime,exceptional acting,0.01218,0.00730576
+Crime,quirky,0.01218,0.01987569
+Crime,money,0.012174,0.00427957
+Crime,great,0.012168,0.00935917
+Crime,plot twist,0.012112,0.01492326
+Crime,funniest movies,0.012099,0.04058466
+Fantasy,pixar,0.497337,0.20466055
+Fantasy,vampires,0.466655,0.12593725
+Fantasy,fairy tale,0.334885,0.04505535
+Fantasy,comic book,0.31731,0.10011165
+Fantasy,magic,0.311948,0.00860742
+Fantasy,vampire,0.281975,0.07791766
+Fantasy,animation,0.281506,0.07929682
+Fantasy,pirates,0.257929,0.0885131
+Fantasy,fantasy,0.247195,0.01224775
+Fantasy,based on a book,0.218797,0.01398377
+Fantasy,surreal,0.196328,0.05705004
+Fantasy,computer animation,0.148098,0.00843743
+Fantasy,superhero,0.13262,0.02831198
+Fantasy,disney,0.131929,0.0230132
+Fantasy,imdb top 250,0.129132,0.01255554
+Fantasy,action,0.125893,0.12289124
+Fantasy,harry potter,0.122045,0.77106684
+Fantasy,sci-fi,0.121504,0.06226279
+Fantasy,gothic,0.118724,0.02656214
+Fantasy,adventure,0.115699,0.13167191
+Fantasy,philosophy,0.108938,0.01014076
+Fantasy,surrealism,0.108274,0.00815083
+Fantasy,cartoon,0.096186,0.02208251
+Fantasy,fairy tales,0.083195,0.00635725
+Fantasy,marvel,0.081256,0.01552649
+Fantasy,video game adaptation,0.079566,0.0353186
+Fantasy,dc comics,0.077186,0.04895595
+Fantasy,werewolves,0.075416,0.07589228
+Fantasy,super-hero,0.074239,0.09970639
+Fantasy,based on a tv show,0.073859,0.01483821
+Fantasy,imagination,0.072646,0.01320564
+Fantasy,twist ending,0.069655,0.05500622
+Fantasy,dragons,0.069363,0.03713127
+Fantasy,heroine in tight suit,0.069256,0.0411534
+Fantasy,dreams,0.068301,0.01241474
+Fantasy,dark,0.067965,0.01142977
+Fantasy,comedy,0.067327,0.0067235
+Fantasy,sequel,0.065141,0.02340464
+Fantasy,funny,0.06416,0.00370531
+Fantasy,dreamworks,0.063823,0.01907462
+Fantasy,nudity (topless),0.063735,0.06438517
+Fantasy,cgi,0.061531,0.00400775
+Fantasy,witch,0.061283,0.38716316
+Fantasy,romance,0.060442,0.00518004
+Fantasy,time travel,0.059469,0.18191862
+Fantasy,overrated,0.059195,0.02921285
+Fantasy,aliens,0.059098,0.036276
+Fantasy,predictable,0.054911,0.0070171
+Fantasy,swashbuckler,0.054469,0.02157032
+Fantasy,quirky,0.053858,0.01987569
+Fantasy,drugs,0.052779,0.05411633
+Fantasy,pointless,0.051354,0.02572719
+Fantasy,japanese,0.050301,0.02693017
+Fantasy,anime,0.049929,0.28954205
+Fantasy,oscar winner,0.048478,0.00652003
+Fantasy,satire,0.047823,0.00894095
+Fantasy,father-son relationship,0.04454,0.02057978
+Fantasy,god,0.044009,0.02019025
+Fantasy,life,0.042858,0.00500182
+Fantasy,steampunk,0.042407,0.02270407
+Fantasy,post apocalyptic,0.042336,0.02267035
+Fantasy,atmospheric,0.041372,0.01502619
+Fantasy,unique,0.041044,0.00913982
+Fantasy,ghosts,0.039619,0.02121594
+Fantasy,espionage,0.039575,0.00938691
+Fantasy,parody,0.038664,0.04925501
+Fantasy,big budget,0.038345,0.05263276
+Fantasy,franchise,0.038345,0.05165671
+Fantasy,metaphysics,0.036903,0.00670535
+Fantasy,fantasy world,0.036398,0.00661481
+Fantasy,weird,0.036372,0.0121858
+Fantasy,family bonds,0.036363,0.00660948
+Fantasy,thought-provoking,0.036292,0.00872859
+Fantasy,bad acting,0.036265,0.01873465
+Fantasy,sad,0.036106,0.00752157
+Fantasy,sex,0.036044,0.01917332
+Fantasy,graphic novel,0.035903,0.01922428
+Fantasy,drama,0.035832,0.02645673
+Fantasy,sad but good,0.035823,0.00945858
+Fantasy,adapted from:comic,0.035805,0.03784386
+Fantasy,dreamlike,0.035708,0.01233485
+Fantasy,disney animated feature,0.035212,0.00473804
+Fantasy,pixar animation,0.035212,0.00739343
+Fantasy,alien,0.034442,0.01727391
+Fantasy,peter pan,0.033982,0.0134617
+Fantasy,war,0.032841,0.00658478
+Fantasy,reflective,0.03246,0.00590113
+Fantasy,talky,0.032319,0.0058745
+Fantasy,zombies,0.032221,0.08438711
+Fantasy,oscar (best music - original score),0.031726,0.0049257
+Fantasy,cute,0.030062,0.02336965
+Fantasy,fish,0.029673,0.00369511
+Fantasy,very good,0.029664,0.01019806
+Fantasy,underrated,0.029664,0.00826024
+Fantasy,nudity (rear),0.029018,0.00954736
+Fantasy,notable nudity,0.028876,0.00684855
+Fantasy,religion,0.028363,0.0339543
+Fantasy,visually appealing,0.027796,0.01275397
+Fantasy,thriller,0.027168,0.04738709
+Fantasy,whimsical,0.026956,0.01995528
+Fantasy,feel-good,0.02592,0.00465899
+Fantasy,virtual reality,0.025681,0.00466818
+Fantasy,animated,0.025416,0.01877849
+Fantasy,oscar (best animated feature),0.02485,0.00771948
+Fantasy,good,0.024504,0.01518043
+Fantasy,monsters,0.024389,0.01306271
+Fantasy,very funny,0.02408,0.02079039
+Fantasy,interesting,0.023823,0.01138642
+Fantasy,money,0.023779,0.00427957
+Fantasy,kids,0.023708,0.00368014
+Fantasy,psychiatrist,0.023628,0.01006847
+Fantasy,fun,0.023628,0.01629864
+Fantasy,wizards,0.023584,0.14900621
+Documentary,documentary,4.652261,0.0061621
+Documentary,politics,2.273448,0.02266122
+Documentary,spelling bee,1.139694,0.06163917
+Documentary,propaganda,0.972182,0.00538831
+Documentary,terrorism,0.611021,0.01489663
+Documentary,political,0.607081,0.02060001
+Documentary,child abuse,0.57847,0.00509692
+Documentary,mountain climbing,0.499041,0.10023104
+Documentary,journalism,0.48649,0.01869826
+Documentary,survival,0.430449,0.08645983
+Documentary,conspiracy,0.404735,1.71928494
+Documentary,courtroom,0.404347,0.01388994
+Documentary,very interesting,0.358306,0.00975329
+Documentary,movielens top pick,0.308327,0.01226029
+Documentary,war,0.264938,0.00658478
+Documentary,hilarious,0.259959,0.00601525
+Documentary,iraq war,0.247286,0.96581672
+Documentary,stupid,0.237,0.01433658
+Documentary,hip hop,0.233224,0.02339643
+Documentary,golden palm,0.221796,0.94217333
+Documentary,submarine,0.214429,0.0307133
+Documentary,antarctica,0.214429,0.01481369
+Documentary,mental illness,0.214327,0.0110103
+Documentary,scenic,0.213939,0.01066426
+Documentary,trains,0.21149,0.0049556
+Documentary,realistic,0.203551,0.01268056
+Documentary,social commentary,0.20351,0.86449573
+Documentary,entertaining,0.202796,0.86146271
+Documentary,interesting,0.202694,0.01138642
+Documentary,awful,0.202469,0.00408402
+Documentary,family,0.202327,0.04470715
+Documentary,satire,0.202061,0.00894095
+Documentary,disturbing,0.201,0.02664051
+Documentary,competition,0.197367,0.01067269
+Documentary,pg,0.189163,0.00753093
+Documentary,racism,0.184061,0.01324254
+Documentary,photographer,0.183102,0.77780402
+Documentary,homosexuality,0.178531,0.75838675
+Documentary,guns,0.174327,0.74052846
+Documentary,unique,0.173367,0.00913982
+Documentary,pointless,0.163816,0.02572719
+Documentary,pg-13,0.156041,0.01506185
+Documentary,psychology,0.133429,0.15268396
+Documentary,music business,0.133429,0.56679672
+Documentary,photography,0.132939,0.01494989
+Documentary,educational,0.132531,0.56298208
+Documentary,workplace,0.132469,0.00716493
+Documentary,true story,0.132367,0.02933288
+Documentary,us history,0.132122,0.56124468
+Musical,bollywood,5.750148,0.04084709
+Musical,rock and roll,3.851001,0.03241361
+Musical,music,2.730667,0.01940411
+Musical,overrated,1.561296,0.02921285
+Musical,campy,1.405778,0.01412335
+Musical,biography,1.315481,0.01299857
+Musical,pg,1.285963,0.00753093
+Musical,talking animals,1.282741,0.01874827
+Musical,college,1.142815,0.03391223
+Musical,hip hop,1.126741,0.02339643
+Musical,trains,1.114593,0.0049556
+Musical,based on a book,1.073444,0.01398377
+Musical,true story,1.061259,0.02933288
+Musical,great music,1.053556,0.00789896
+Musical,disney animated feature,1.040815,0.00473804
+Musical,mockumentary,1.027519,0.01619882
+Musical,adapted from:book,0.995741,0.01166144
+Musical,romance,0.970778,0.00518004
+Musical,stupid,0.967667,0.01433658
+Musical,musical,0.953481,0.00978601
+Musical,disney,0.886778,0.0230132
+Musical,dance,0.843593,0.01355275
+Musical,funny,0.780889,0.00370531
+Musical,high school,0.713593,0.09778408
+Musical,school,0.705222,0.01012017
+Musical,funniest movies,0.698519,0.04058466
+Musical,india,0.696926,0.01908665
+Sci-Fi,time travel,0.647168,0.18191862
+Sci-Fi,comic book,0.465601,0.10011165
+Sci-Fi,surreal,0.426909,0.05705004
+Sci-Fi,sci-fi,0.394986,0.06226279
+Sci-Fi,philip k. dick,0.314291,0.26106537
+Sci-Fi,super-hero,0.291614,0.09970639
+Sci-Fi,superhero,0.187073,0.02831198
+Sci-Fi,future,0.170609,0.0700486
+Sci-Fi,action,0.159152,0.12289124
+Sci-Fi,dystopia,0.14982,0.0815753
+Sci-Fi,memory,0.11779,0.04503048
+Sci-Fi,aliens,0.11732,0.036276
+Sci-Fi,based on a book,0.109588,0.01398377
+Sci-Fi,robots,0.094725,0.03195879
+Sci-Fi,zombies,0.09224,0.08438711
+Sci-Fi,dynamic cgi action,0.087696,0.0364245
+Sci-Fi,sequel,0.072811,0.02340464
+Sci-Fi,nudity (topless),0.069551,0.06438517
+Sci-Fi,space,0.069188,0.03570033
+Sci-Fi,drugs,0.068188,0.05411633
+Sci-Fi,quirky,0.068109,0.01987569
+Sci-Fi,computer animation,0.067479,0.00843743
+Sci-Fi,video game adaptation,0.066464,0.0353186
+Sci-Fi,franchise,0.066349,0.05165671
+Sci-Fi,remake,0.061558,0.0729382
+Sci-Fi,violence,0.059029,0.03681527
+Sci-Fi,mindfuck,0.056579,0.09639303
+Sci-Fi,boring,0.056457,0.04109308
+Sci-Fi,amazing cinematography,0.054674,0.02584675
+Sci-Fi,futuristic,0.054623,0.03388301
+Sci-Fi,sci fi,0.053906,0.05226656
+Sci-Fi,artificial intelligence,0.052181,0.05058511
+Sci-Fi,star trek,0.051609,0.05002987
+Sci-Fi,nudity (rear),0.049725,0.00954736
+Sci-Fi,crappy sequel,0.04829,0.05576249
+Sci-Fi,alien,0.04671,0.01727391
+Sci-Fi,alien invasion,0.044217,0.01919955
+Sci-Fi,science,0.043348,0.042025
+Sci-Fi,psychology,0.041566,0.15268396
+Sci-Fi,based on a tv show,0.039884,0.01483821
+Sci-Fi,horror,0.03942,0.04691801
+Sci-Fi,adapted from:comic,0.038818,0.03784386
+Sci-Fi,romance,0.038239,0.00518004
+Sci-Fi,dragons,0.038094,0.03713127
+Sci-Fi,alter ego,0.037376,0.0181138
+Sci-Fi,imdb top 250,0.035442,0.01255554
+Sci-Fi,dinosaurs,0.034,0.01580068
+Sci-Fi,complicated,0.032913,0.03191607
+Sci-Fi,scary,0.032891,0.083452
+Sci-Fi,new york,0.032283,0.00702334
+Sci-Fi,new york city,0.032072,0.00862692
+Sci-Fi,nudity (topless - brief),0.031856,0.03895957
+Sci-Fi,drama,0.031377,0.02645673
+Sci-Fi,strange,0.029152,0.01130317
+Sci-Fi,star wars,0.028717,0.02799344
+Sci-Fi,japanese,0.02763,0.02693017
+Sci-Fi,anime,0.02742,0.28954205
+Sci-Fi,brilliant,0.026906,0.0191271
+Sci-Fi,super hero,0.026798,0.01298853
+Sci-Fi,good,0.026566,0.01518043
+Sci-Fi,funny,0.026218,0.00370531
+Sci-Fi,cult film,0.025123,0.02885589
+Sci-Fi,surrealism,0.024891,0.00815083
+Sci-Fi,comedy,0.024435,0.0067235
+Sci-Fi,god,0.024167,0.02019025
+Sci-Fi,inspirational,0.023652,0.01071045
+Sci-Fi,steampunk,0.02329,0.02270407
+Sci-Fi,post apocalyptic,0.023254,0.02267035
+Sci-Fi,fascism,0.023232,0.01929659
+Sci-Fi,overrated,0.02321,0.02921285
+Sci-Fi,directorial debut,0.022522,0.04853599
+Sci-Fi,revenge,0.022449,0.10290808
+Sci-Fi,virus,0.021391,0.02074163
+Sci-Fi,mutants,0.021065,0.02432352
+Sci-Fi,big budget,0.021058,0.05263276
+Sci-Fi,trains,0.02071,0.0049556
+Sci-Fi,antarctica,0.020652,0.01481369
+Sci-Fi,mystery,0.020167,0.03857565
+Sci-Fi,love,0.020167,0.01370337
+Sci-Fi,aviation,0.020036,0.02313318
+Sci-Fi,sappy,0.019833,0.01922203
+Sci-Fi,comic book adaption,0.019783,0.02285357
+Sci-Fi,meditative,0.019725,0.02763012
+Sci-Fi,graphic novel,0.019717,0.01922428
+Sci-Fi,science fiction,0.019717,0.02277368
+Sci-Fi,sad but good,0.019674,0.00945858
+Sci-Fi,disturbing,0.019674,0.02664051
+Sci-Fi,cgi,0.01963,0.00400775
+Sci-Fi,literary adaptation,0.019529,0.01212962
+Sci-Fi,pirates,0.019268,0.0885131
+Sci-Fi,adapted from:game,0.019094,0.02371759
+Sci-Fi,heroine in tight suit,0.019022,0.0411534
+Sci-Fi,saturn award (best special effects),0.018812,0.02172713
+Sci-Fi,book was better,0.018768,0.01346503
+Sci-Fi,treasure hunt,0.018732,0.19778165
+Sci-Fi,amnesia,0.0185,0.01451487
+Sci-Fi,murder,0.0185,0.05198492
+Sci-Fi,clever,0.018428,0.01786428
+Sci-Fi,love triangles,0.018188,0.00695059
+Sci-Fi,twist ending,0.017964,0.05500622
+Sci-Fi,ridiculous,0.017891,0.02819058
+Sci-Fi,bittersweet,0.017739,0.0278743
+Sci-Fi,mental illness,0.017717,0.0110103
+Sci-Fi,enigmatic,0.017674,0.00987515
+Sci-Fi,eerie,0.017659,0.02474271
+Sci-Fi,oscar (best writing - screenplay written directly for the screen),0.017435,0.00666511
+Sci-Fi,teen,0.016703,0.01387297
+Sci-Fi,awful,0.016667,0.00408402
+Sci-Fi,disney,0.016478,0.0230132
+Sci-Fi,gothic,0.016304,0.02656214
+Sci-Fi,plot holes,0.016297,0.00830922
+Sci-Fi,fish,0.016297,0.00369511
+Sci-Fi,classic,0.01629,0.01017765
+Sci-Fi,pg-13,0.016203,0.01506185
+Sci-Fi,dramatic,0.01613,0.00741816
+Sci-Fi,interesting,0.016029,0.01138642
+Sci-Fi,intellectual,0.015877,0.0153983
+Sci-Fi,notable nudity,0.015862,0.00684855
+Sci-Fi,waste of time,0.01571,0.00476488
+Sci-Fi,philosophy,0.015601,0.01014076
+Sci-Fi,visually appealing,0.015268,0.01275397
+Sci-Fi,alternate universe,0.01492,0.01723737
+Sci-Fi,redemption,0.01492,0.01101864
+Sci-Fi,virtual reality,0.014109,0.00466818
+Sci-Fi,series,0.013406,0.0154878
+Sci-Fi,very good,0.013384,0.01019806
+Sci-Fi,idiotic,0.013225,0.00431039
+Sci-Fi,chick flick,0.013225,0.00821847
+Sci-Fi,nuclear,0.013138,0.01517091
+Sci-Fi,fun,0.013109,0.01629864
+Sci-Fi,marvel,0.013072,0.01552649
+Sci-Fi,slow,0.013022,0.0144789
+Sci-Fi,horrible,0.013014,0.00524441
+Sci-Fi,psychiatrist,0.012978,0.01006847
+Sci-Fi,zombie,0.012964,0.02023716
+Sci-Fi,special effects,0.012957,0.01256367
+Sci-Fi,thought-provoking,0.012957,0.00872859
+Sci-Fi,transformation,0.012942,0.01494456
+IMAX,submarine,250.0005,0.0307133
+IMAX,antarctica,249.9995,0.01481369
+Western,history,16.440667,0.10054952
+Western,canada,14.800556,0.00538828
+Western,talking animals,14.573333,0.01874827
+Western,dreamworks,13.097,0.01907462
+Western,disney animated feature,11.824667,0.00473804
+Western,culture clash,11.173222,0.01781483
+Western,horses,10.928889,0.01742369
+Western,disney,10.074556,0.0230132
+Western,middle east,8.198111,0.01307395
